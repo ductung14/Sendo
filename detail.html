@@ -1,0 +1,1530 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link rel="stylesheet" href="./assets/font/fontawesome-free-6.4.2-web/css/all.min.css">
+  <link rel="stylesheet" href="./assets/scss/detail.css">
+  <link rel="stylesheet" href="./assets/css/base.css">
+  <link rel="stylesheet" href="./assets/css/detail.css">
+  <link rel="stylesheet" href="./assets/css/rps.css">
+</head>
+<body>
+  <header class="header">
+    <nav class="header__navbar">
+      <ul class="list">
+        <li class="item">Tải ứng dụng</li>
+        <li class="item">Chăm sóc khách hàng</li>
+      </ul>
+    </nav>
+    <div class="header__slide">
+      <a href="https://sendo.onelink.me/0Sac/e972534d?source_page_id=home&amp;source_pagetab_id=0&amp;source_block_id=banner_header_https:__sendo.onelink.me_0Sac_e972534d&amp;utm_source=SmartBanner&amp;utm_medium=affiliate&amp;utm_campaign=6_smartbanner-int_0_awo_1&amp;af_dp=https://www.sendo.vn/" style="display: block; width: 100%; height: 100%; background: url(&quot;https://media3.scdn.vn/img4/2023/01_30/Oy1UtoIkFtFYqGRWxW4n.png&quot;) center center;"></a>
+    </div>
+    <div class="header-with-search">
+      <div class="header__logo">
+        <svg class="header__logo-img" viewBox="0 0 87 48" xmlns="http://www.w3.org/2000/svg">
+          <path
+              d="m69.052 12.375-3.097 16.548a44.418 44.418 0 0 0-.74 6.633h-4.378l.27-2.94h-.068a6.042 6.042 0 0 1-5.251 3.008c-2.761 0-4.983-2.188-4.983-6.154 0-5.675 4.04-10.872 10.1-10.872.74 0 1.481.137 2.222.41l1.212-6.564 4.713-.069zm-6.666 10.394a2.664 2.664 0 0 0-1.885-.547c-2.828 0-4.848 3.35-4.848 6.496 0 1.983.875 3.077 2.222 3.077 1.414 0 3.03-1.436 3.636-4.581l.875-4.445zM4.481 30.017a10.123 10.123 0 0 0 5.252 1.436c1.818 0 3.501-.889 3.501-2.667 0-1.299-.942-2.12-2.962-3.145-2.424-1.3-4.646-3.009-4.646-5.95 0-4.512 3.905-7.316 8.753-7.316 2.693 0 4.31.616 5.252 1.163l-1.481 4.034a8.713 8.713 0 0 0-4.108-1.025c-2.222 0-3.366 1.162-3.366 2.393 0 1.299 1.346 2.12 3.232 3.145 2.693 1.436 4.444 3.283 4.444 5.95 0 4.991-4.108 7.59-9.023 7.59-3.097 0-5.32-.821-6.33-1.573l1.482-4.035zm27.606 4.308a13.756 13.756 0 0 1-5.992 1.3c-4.579 0-6.935-2.668-6.935-6.839 0-4.991 3.568-10.12 9.359-10.12 3.232 0 5.588 1.847 5.588 4.855 0 4.171-3.972 5.676-10.436 5.54 0 .615.202 1.162.471 1.64.606.82 1.684 1.3 3.098 1.3 1.548 0 3.097-.342 4.51-1.026l.338 3.35zm-4.174-12.24c-2.222 0-3.434 1.846-3.771 3.35 3.703.07 5.521-.478 5.521-1.982 0-.82-.606-1.368-1.75-1.368zm5.52 13.471 2.088-11.35c.404-2.052.74-4.24.875-5.676h4.242l-.404 3.077h.068a6.707 6.707 0 0 1 5.656-3.077c2.625 0 4.107 1.64 4.107 4.444 0 .958-.135 1.847-.27 2.804l-1.818 9.778h-4.713l1.75-9.368c.135-.615.135-1.23.135-1.846 0-1.163-.404-1.915-1.548-1.915-1.549 0-3.367 1.983-3.973 5.54l-1.414 7.59h-4.78zM84 25.3c0 5.95-3.973 10.325-9.561 10.325-4.107 0-6.8-2.735-6.8-6.77 0-5.675 3.904-10.325 9.56-10.325 4.31.069 6.8 3.078 6.8 6.77m-11.445 3.487c0 1.915.942 3.146 2.558 3.146 2.626 0 4.04-3.83 4.04-6.633 0-1.504-.606-3.077-2.558-3.077-2.694 0-4.107 4.034-4.04 6.565"
+              fill="#fff"
+          ></path>
+        </svg>
+      </div>
+      <div class="header__search">
+      <div class="header__search-img">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" class="d7ed-SwZDZ2">
+          <path
+              d="M9 2a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h5zm0 2H4v5h5V4zm11-2a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-5a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h5zm0 2h-5v5h5V4zM9 13a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h5zm0 2H4v5h5v-5zm8.5-2a4.5 4.5 0 1 1 0 9 4.5 4.5 0 0 1 0-9zm0 2a2.5 2.5 0 0 0 0 5 2.5 2.5 0 0 0 0-5z"
+              fill="#fff"
+              fill-rule="nonzero"
+          ></path>
+        </svg>
+      </div>
+        <div class="header__search-btn">
+          <input type="text" class="header__search-input" placeholder="Tìm trên Sendo"></input> 
+          <div class="header__search-history">
+            <h3 class="header__search-history-heading">Xu hướng tìm kiếm</h3>
+            <ul class="header__search-history-list">
+              <li class="header__search-history-item">
+                <a href="">tai nghe bluetooth</a>
+              </li>
+              <li class="header__search-history-item">
+                <a href="">đồng hồ</a>
+              </li>
+              <li class="header__search-history-item">
+                <a href="">giàn phun viên</a>
+              </li>
+              <li class="header__search-history-item">
+                <a href="">khẩu trang</a>
+              </li>
+            </ul>
+          </div>
+          <button class="header__search-logo">
+            <svg class="header__search-logo-img" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" class="d7ed-SwZDZ2 d7ed-w34diS">
+              <path d="M10 2a8 8 0 0 1 6.32 12.905l5.387 5.388-1.414 1.414-5.388-5.386A8 8 0 1 1 10 2Zm0 2a6 6 0 1 0 0 12 6 6 0 0 0 0-12Z" fill="#3f4b53" fill-rule="nonzero"></path>
+          </svg>
+          </button>
+        </div>
+      </div>
+      <div class="header__cart">
+      <svg class="header__cart-img" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" class="d7ed-SwZDZ2">
+        <path
+            d="m20.946 2 .994 17.89a2 2 0 0 1-1.886 2.107l-.111.003H4.057a2 2 0 0 1-2-2c0-.055 0-.055.003-.11L3.054 2h17.892Zm-1.892 2H4.946l-.889 16h15.886l-.889-16ZM9 6v2.5c0 1.248 1.385 2.5 3 2.5s3-1.252 3-2.5V6h2v2.5c0 2.4-2.323 4.5-5 4.5s-5-2.1-5-4.5V6h2Z"
+            fill="#fff"
+            fill-rule="nonzero"
+        ></path>
+      </svg>
+      <button class="header__login">
+        <span>Đăng nhập</span>
+      </button>
+      </div>
+      <nav class="header__footing">
+        <section>
+          <button>
+            <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" class="d7ed-SwZDZ2" style="color: rgb(111, 120, 126);"><path fill="#6F787E" fill-rule="nonzero" d="m6.414 13 6.293 6.293-1.414 1.414L2.586 12l8.707-8.707 1.414 1.414L6.414 11H21v2z"></path></svg>
+          </button>
+          <span>Bình và ly giữ nhiệt</span>
+        </section>
+        <section>
+          <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" class="d7ed-SwZDZ2" style="color: rgb(111, 120, 126); margin-right: 1.2rem;"><path d="M13.427 2.612 23 12.522 21.573 14 20 12.372V20a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-7.628L2.427 14 1 12.522l9.573-9.91a1.97 1.97 0 0 1 2.854 0ZM6 18v2h12v-2H6Zm0-2h12v-5.698L12 4.09l-6 6.211V16Z" fill="#6F787E" fill-rule="nonzero"></path></svg>
+          <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" class="d7ed-SwZDZ2" style="color: rgb(111, 120, 126);"><path d="m20.946 2 .994 17.89a2 2 0 0 1-1.886 2.107l-.111.003H4.057a2 2 0 0 1-2-2c0-.055 0-.055.003-.11L3.054 2h17.892Zm-1.892 2H4.946l-.889 16h15.886l-.889-16ZM9 6v2.5c0 1.248 1.385 2.5 3 2.5s3-1.252 3-2.5V6h2v2.5c0 2.4-2.323 4.5-5 4.5s-5-2.1-5-4.5V6h2Z" fill="#6F787E" fill-rule="nonzero"></path></svg>
+        </section>
+      </nav>
+  </div> 
+  </header>
+  <div class="countainer">
+    <div class="countainer__heading">
+      <div class="countainer__navbar">
+        <ul>
+          <li>
+            <span>Sendo.vn</span>
+          </li>
+          <li>
+            <span>/</span>
+          </li>
+          <li>
+            <span>Nhà Cửa</span>
+          </li>
+          <li>
+            <span>/</span>
+          </li>
+          <li>
+            <span>Đồ dùng phòng ăn, uống</span>
+          </li>
+          <li>
+            <span>/</span>
+          </li>
+          <li>
+            <span>Bình và ly giữ nhiệt</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="container__productintro">
+      <div class="img">
+        <img src="https://media3.scdn.vn/img4/2023/11_02/MjBoqeQcH48hpl6TyUZQ.png" alt="event-frame" class="image">   
+        <div class="slide">
+          <div class="slide-img">
+            <img heigh="100%"  src="https://iv.scdn.vn/vod-thumbnail/441607/1681367314136_zz3hmo.jpg" alt="" class="slide-image">
+            <svg xmlns="http://www.w3.org/2000/svg" width="4rem" height="4rem" viewBox="0 0 40 40" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" class="slide-logo"><g fill-rule="nonzero" fill="none"><rect width="37.5" height="37.5" x="1.25" y="1.25" fill="#0F1E29" fill-opacity="0.5" stroke="#FFF" stroke-width="2.5" rx="18.75"></rect><path fill="#FFF" d="M15 27.29V12.71c0-1.145 1.188-1.843 2.104-1.236l11 7.29c.861.571.861 1.901 0 2.472l-11 7.29c-.917.607-2.104-.09-2.104-1.236z"></path></g></svg>
+          </div>
+          <div class="slide-img">
+            <img heigh="100%" src="https://media3.scdn.vn/img4/2023/04_13/1ZKg5EqiE2UcMA5Vp6Q9_simg_02d57e_100x100_maxb.jpg" alt="" class="">
+          </div>
+          <div class="slide-img">
+            <img heigh="100%" src="https://media3.scdn.vn/img4/2023/04_13/vcFwN6NYHMANQF5RlCLf_simg_02d57e_100x100_maxb.jpg" alt="" class="">
+          </div>
+          <div class="slide-img">
+            <img heigh="100%" data-src="https://media3.scdn.vn/img4/2023/04_13/jK4tgnPTEIlBySaxmRYr_simg_02d57e_100x100_maxb.jpg" src="https://media3.scdn.vn/img4/2023/04_13/jK4tgnPTEIlBySaxmRYr_simg_02d57e_100x100_maxb.jpg" alt="" class=" ls-is-cached lazyloaded">
+          </div>
+          <div class="slide-img">
+            <img heigh="100%" data-src="https://media3.scdn.vn/img4/2023/04_13/DuMlonmZ6zOEzzMbZFo4_simg_02d57e_100x100_maxb.jpg" src="https://media3.scdn.vn/img4/2023/04_13/DuMlonmZ6zOEzzMbZFo4_simg_02d57e_100x100_maxb.jpg" alt="" class=" ls-is-cached lazyloaded">
+          </div>
+          <div class="slide-img">
+            <img heigh="100%" data-src="https://media3.scdn.vn/img4/2023/04_13/AUxuXsVehGjIw7dCK3i0_simg_02d57e_100x100_maxb.jpg" src="https://media3.scdn.vn/img4/2023/04_13/AUxuXsVehGjIw7dCK3i0_simg_02d57e_100x100_maxb.jpg" alt="" class=" ls-is-cached lazyloaded">
+          </div>
+        </div>
+
+      </div>
+      <div class="price">
+        <div class="deal">
+          <img src="https://media3.scdn.vn/img4/2021/08_30/7FaP9vvAWK47dNOIMs6W.png" alt="flash-sale" class="deal-img">
+          <div class="deal-endtime">
+            <span>Kết thúc trong</span>
+            <div class="deal-time">
+              <span>32: 08: 50</span>
+            </div>
+          </div>
+        </div>
+        <div class="details">
+          <h1>
+            <img src="https://media3.scdn.vn/img4/2020/07_30/h6fJaiL5WkEbDU2eQRZb.png" alt="Shop's badge" class="logo">
+            Kéo Nhật Nhà Bếp Sk5 Cán Thép Siêu Bền Bỉ - 3982_113339001
+          </h1>
+          <span>Thương hiệu: OEM</span>
+          <h3>22.000đ</h3>
+          <div class="price-old">
+            <span>49.000đ</span>
+            <span>Giảm 56%</span>
+          </div>
+          <div class="details-evaluate">
+            <div class="details-star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <span>81 đánh giá</span>
+            <h6>.</h6>
+            <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" class="d7ed-SwZDZ2" style="color: rgb(111, 120, 126); width: 16px; height: 16px;"><path d="M12 2c2.489 0 4.672 1.815 4.966 4h2.881a2 2 0 0 1 1.98 2.283l-1.714 12A2 2 0 0 1 18.133 22H5.867a2 2 0 0 1-1.98-1.717l-1.714-12A2 2 0 0 1 4.153 6h2.88C7.329 3.815 9.512 2 12 2ZM7 8H4.153l1.714 12h12.266l1.714-12H17v2h-2V8H9v2H7V8Zm5-4c-1.398 0-2.624.938-2.928 2h5.856c-.304-1.062-1.53-2-2.928-2Z" fill="#6F787E" fill-rule="nonzero"></path></svg>
+            <h5>242 lượt mua</h5>
+           
+            
+          </div>
+        </div>
+        <div class="select">
+          <span>Chọn số lượng:</span>
+          <form action="">
+            <div class="select-btn">
+              <button class="select-less">
+                <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" class="d7ed-SwZDZ2 d7ed-w34diS"><g id="24-/-basic-/-icon24_minus_default" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><path id="icon-background" fill="#6F787E" fill-rule="nonzero" d="M22 11v2H2v-2z"></path></g></svg>
+              </button>
+              <div class="select-quantity">
+                <input inputmode="numeric"></input>
+              </div>
+              <button class="select-more">
+                <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" class="d7ed-SwZDZ2 d7ed-w34diS"><g id="24-/-basic-/-icon24_plus_default" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><path id="icon-background" fill="#6F787E" fill-rule="nonzero" d="M13 11h9v2h-9v9h-2v-9H2v-2h9V2h2z"></path></g></svg>
+              </button>
+            </div>
+          </form>
+        </div>
+        <div class="attention">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" class="d7ed-SwZDZ2"><path d="M12 1c6.075 0 11 4.925 11 11s-4.925 11-11 11S1 18.075 1 12 5.925 1 12 1zm1.004 8.998h-3.001v2h1v2h-1v2h4v-2h-1v-4zm-1.004-3a1 1 0 1 0 0 2 1 1 0 0 0 0-2z" fill="#133096" fill-rule="nonzero"></path></svg>
+          <span>Chỉ được mua</span>
+          <h6>100</h6>
+          <span>sản phẩm khuyến mãi.</span>
+        </div>
+        <div class="buy">
+          <button>
+            <span>Thêm vào giỏ</span>
+          </button>
+          <button>
+            <span>Mua ngay</span>
+          </button>
+        </div>
+        <div class="discountcode">
+          <p>Mã giảm giá của Shop (1)</p>
+          <div class="ticket">
+            <div class="code">
+              <span>Giảm giá 10K</span>
+              <span>Chi tiết</span>
+            </div>
+            <div class="save">
+              <span>Lưu</span>
+            </div>
+          </div>
+        </div>
+        <div class="endow">
+          <div class="endow-heading">
+            <p>Ưu đãi dành cho bạn</p>
+            <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" class="d7ed-SwZDZ2"><path d="M12 1c6.075 0 11 4.925 11 11s-4.925 11-11 11S1 18.075 1 12 5.925 1 12 1Zm0 2a9 9 0 1 0 0 18 9 9 0 0 0 0-18Zm1.004 6.998v4h.999v2h-4v-2h1v-2h-1v-2h3Zm-1.004-3a1 1 0 1 1 0 2 1 1 0 0 1 0-2Z" fill="#6F787E" fill-rule="nonzero"></path></svg>
+          </div>
+          <div class="endow-method">
+            <div class="endow-item">
+              <img src="https://media3.scdn.vn/img4/2023/08_29/HDgWOVQr93hTWAFmecC3.png" alt="Trả góp AFTEE" class="endow-img" >
+              <span>Trả góp AFTEE</span>
+            </div>
+            <div class="endow-item">
+              <img src="https://media3.scdn.vn/img4/2023/04_17/9wtTH9rjcQ4CVH1s7SeW.png" alt="Trả góp Muadee" class="endow-img" >
+              <span>Trả góp Muadee</span>
+            </div>
+            <div class="endow-item">
+              <img src="https://media3.scdn.vn/img4/2022/12_19/k4fhvv3i925lb0CUgGn4.png" alt="Trả góp Kredivo" class="endow-img" >
+              <span>Trả góp Kredivo</span>
+            </div>
+            <div class="endow-item">
+              <img src="https://media3.scdn.vn/img4/2021/05_10/HHDHM10eqVNmGUZE5EfA.png" alt="Giảm khi mua qua App" class="endow-img" >
+              <span>Giảm khi mua qua App</span>
+            </div>
+          </div>
+        </div>
+        <div class="right">
+          <div class="endow-heading">
+            <p>Quyền lợi khách hàng & Bảo hành</p>
+            <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" class="d7ed-SwZDZ2"><path d="M12 1c6.075 0 11 4.925 11 11s-4.925 11-11 11S1 18.075 1 12 5.925 1 12 1Zm0 2a9 9 0 1 0 0 18 9 9 0 0 0 0-18Zm1.004 6.998v4h.999v2h-4v-2h1v-2h-1v-2h3Zm-1.004-3a1 1 0 1 1 0 2 1 1 0 0 1 0-2Z" fill="#6F787E" fill-rule="nonzero"></path></svg>
+          </div>
+          <div class="right-container">
+            <div class="right-item">
+              <div class="right-logo">
+                <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" class=""><g fill="none" fill-rule="evenodd"><path d="m19 15 .002-1.245.004-1.954.003-1.691c.004-2.232.003-4.148 0-4.74-.33-.206-.846-.524-1.118-.706C16.414 3.68 14.26 3 12 3 9.838 3 7.029 4.051 6.11 4.664c-.27.18-.779.494-1.11.7V15c0 1.508 2.23 3.569 7 5.802 4.772-2.228 7-4.288 7-5.802Z" fill="#D6EFDF"></path><path d="M12 1c2.995 0 5.5 1 7 2s2 1 2 2c.026.291 0 8.5 0 10 0 2.667-3 5.333-9 8-6-2.673-9-5.34-9-8V5c0-1 .5-1 2-2 .162-.108 3.563-2 7-2Zm0 2C9.838 3 7.029 4.051 6.11 4.664c-.27.18-.779.494-1.11.7V15c0 1.508 2.23 3.569 7 5.802 4.772-2.228 7-4.288 7-5.802v-.694l.001-.167v-.384l.005-1.954.003-1.691v-.575c.004-1.98.003-3.625 0-4.166-.33-.205-.846-.523-1.118-.705C16.414 3.68 14.26 3 12 3Zm3.293 5.293 1.414 1.414L11 15.414l-3.707-3.707 1.414-1.414L11 12.586l4.293-4.293Z" fill="#449460"></path></g></svg>
+              </div>
+              <span>Miễn phí hoàn trả</span>
+            </div>
+            <div class="right-item">
+              <div class="right-logo">
+                <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" class=""><g fill="none" fill-rule="evenodd"><path d="m19 15 .002-1.245.004-1.954.003-1.691c.004-2.232.003-4.148 0-4.74-.33-.206-.846-.524-1.118-.706C16.414 3.68 14.26 3 12 3 9.838 3 7.029 4.051 6.11 4.664c-.27.18-.779.494-1.11.7V15c0 1.508 2.23 3.569 7 5.802 4.772-2.228 7-4.288 7-5.802Z" fill="#D6EFDF"></path><path d="M12 1c2.995 0 5.5 1 7 2s2 1 2 2c.026.291 0 8.5 0 10 0 2.667-3 5.333-9 8-6-2.673-9-5.34-9-8V5c0-1 .5-1 2-2 .162-.108 3.563-2 7-2Zm0 2C9.838 3 7.029 4.051 6.11 4.664c-.27.18-.779.494-1.11.7V15c0 1.508 2.23 3.569 7 5.802 4.772-2.228 7-4.288 7-5.802v-.694l.001-.167v-.384l.005-1.954.003-1.691v-.575c.004-1.98.003-3.625 0-4.166-.33-.205-.846-.523-1.118-.705C16.414 3.68 14.26 3 12 3Zm3.293 5.293 1.414 1.414L11 15.414l-3.707-3.707 1.414-1.414L11 12.586l4.293-4.293Z" fill="#449460"></path></g></svg>
+              </div>
+              <span>48 giờ hoàn trả</span>
+            </div>
+            <div class="right-item">
+              <div class="right-logo">
+                <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" class=""><g fill="none" fill-rule="evenodd"><path d="m19 15 .002-1.245.004-1.954.003-1.691c.004-2.232.003-4.148 0-4.74-.33-.206-.846-.524-1.118-.706C16.414 3.68 14.26 3 12 3 9.838 3 7.029 4.051 6.11 4.664c-.27.18-.779.494-1.11.7V15c0 1.508 2.23 3.569 7 5.802 4.772-2.228 7-4.288 7-5.802Z" fill="#D6EFDF"></path><path d="M12 1c2.995 0 5.5 1 7 2s2 1 2 2c.026.291 0 8.5 0 10 0 2.667-3 5.333-9 8-6-2.673-9-5.34-9-8V5c0-1 .5-1 2-2 .162-.108 3.563-2 7-2Zm0 2C9.838 3 7.029 4.051 6.11 4.664c-.27.18-.779.494-1.11.7V15c0 1.508 2.23 3.569 7 5.802 4.772-2.228 7-4.288 7-5.802v-.694l.001-.167v-.384l.005-1.954.003-1.691v-.575c.004-1.98.003-3.625 0-4.166-.33-.205-.846-.523-1.118-.705C16.414 3.68 14.26 3 12 3Zm3.293 5.293 1.414 1.414L11 15.414l-3.707-3.707 1.414-1.414L11 12.586l4.293-4.293Z" fill="#449460"></path></g></svg>
+              </div>
+              <span>Bảo hành theo chính sách nhà từ Nhà bán hàng</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container__information">
+      <div class="container__supplierinformation">
+        <h3>Thông tin nhà cung cấp</h3>
+        <div class="info">
+          <div class="img">
+            <img src="https://media3.scdn.vn/img4/2020/03_27/xZAsjGbJSx9X0MSLhbZU.jpg" alt="shop-avatar" class="avt">
+            <div class="status"></div>
+          </div>
+          <div class="author">
+            <p>Mẹ và Bé QN</p>
+            <div class="author-logo">
+              <img src="https://media3.scdn.vn/img4/2020/07_30/h6fJaiL5WkEbDU2eQRZb.png" alt="shop_plus" class="author-img">
+              <img src="https://media3.scdn.vn/img4/2020/12_15/qQtk5Kp2bbIThQhWXhGq.png" alt="shop_level" class="author-img">
+            </div>
+            <div class="author-star">
+              <span>Quảng Nam</span>
+              <span>|</span>
+              <span>4.6</span>
+              <i class="fa-solid fa-star"></i>
+            </div>
+
+          </div>
+        </div>
+        <div class="detail">
+          <div class="detail-item">
+            <span>5 năm</span>
+            <span>Bán ở Sendo</span>
+          </div>
+          <div class="detail-item">
+            <span>403</span>
+            <span>Sản phẩm</span>
+          </div>
+          <div class="detail-item">
+            <span>1 ngày</span>
+            <span>Chuẩn bị hàng</span>
+          </div>
+          <div class="detail-item">
+            <span>68%</span>
+            <span>Tỉ lệ phản hồi</span>
+          </div>
+          <div class="detail-item">
+            <span>Trong vài...</span>
+            <span>Shop phản hồi</span>
+          </div>
+        </div>
+        <div class="btn">
+          <button class="btn-follow">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" class="btn-img"><path d="M16.553 2C20.258 2.015 23 5.14 23 9.12c0 .631-.073 1.258-.217 1.88H20.71a6.43 6.43 0 0 0 .289-1.88c0-2.931-1.912-5.11-4.45-5.12-1.163 0-1.804.118-2.568.492a4.18 4.18 0 0 0-1.25.936l-.73.79-.735-.784a4.262 4.262 0 0 0-1.232-.913C9.248 4.13 8.565 4 7.455 4 4.884 4 3 6.148 3 9.12c0 2.38 1.414 4.83 4.186 7.323 1.512 1.36 3.455 2.718 4.814 3.43v2.253l-.866-.449c-1.515-.784-3.63-2.258-5.285-3.747C2.694 15.092 1 12.158 1 9.12 1 5.097 3.716 2 7.455 2c1.395 0 2.376.189 3.467.728.38.188.736.41 1.068.668a6.146 6.146 0 0 1 1.113-.7c1.07-.524 2.003-.696 3.45-.696zM19 13v3h3v2h-3v3h-2v-3h-3v-2h3v-3h2z" fill="#6F787E" fill-rule="nonzero"></path></svg>
+            <span>Theo dõi shop</span>
+          </button>
+          <button class="btn-follow">
+            <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" class="btn-img" style="color: rgb(63, 75, 83);"><path d="M19 14a1 1 0 0 1 1 1v5a1 1 0 0 1-.883.993L19 21H5a1 1 0 0 1-1-1v-5a1 1 0 0 1 2 0v4h12v-4a1 1 0 0 1 1-1Zm-6 1a1 1 0 0 1 0 2h-2a1 1 0 0 1 0-2h2Zm5-12a1 1 0 0 1 1 1.004c-.001.245.197.557.718 1.046.122.113.256.233.44.393l.5.432C22.25 7.267 23 8.36 23 10c0 1.598-1.431 3-3 3-.743 0-1.458-.321-2.004-.829-.545.506-1.258.829-1.996.829-.74 0-1.454-.325-2-.833-.545.508-1.26.833-2 .833-.747 0-1.461-.315-2.006-.819C9.45 12.683 8.74 13 8 13c-.74 0-1.455-.325-2-.833-.548.509-1.264.833-2.007.833-1.557 0-2.998-1.446-2.998-3 0-1.64.751-2.732 2.345-4.123.112-.098.483-.416.504-.435.186-.161.322-.282.444-.396.519-.486.714-.796.712-1.037A1 1 0 0 1 6 3h12Zm-.804 2H6.806c-.213.513-.6.99-1.151 1.506-.145.135-.298.271-.502.448l-.498.43C3.461 8.426 2.995 9.104 2.995 10c0 .451.547 1 .998 1C4.453 11 5 10.458 5 10c0-1.333 2-1.333 2 0 0 .458.546 1 1 1 .464 0 1-.528 1-1 0-1.333 2-1.333 2 0 0 .49.523 1 1 1 .454 0 1-.543 1-1 0-1.333 2-1.333 2 0 0 .456.547 1 1 1 .455 0 1-.542 1-1 0-1.333 2-1.333 2 0 0 .47.537 1 1 1 .473 0 1-.516 1-1 0-.898-.465-1.576-1.658-2.62l-.494-.426c-.202-.175-.354-.31-.497-.445-.553-.518-.94-.995-1.155-1.509Z" fill="#6F787E" fill-rule="nonzero"></path></svg>
+            <span>Vào Shop</span>
+          </button>
+          <button class="btn-phone">
+            <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" class="btn-img"><path d="M8.22 2.729c.555.548 1.44 1.685 2.755 3.525.585.65.4 1.386-.118 2.084a5.453 5.453 0 0 1-.436.508 14.89 14.89 0 0 1-.28.285l-.767.768c-.1.1.586 1.47 1.917 2.803 1.33 1.331 2.7 2.018 2.801 1.917l.767-.767c.422-.422.645-.626.952-.827.638-.42 1.335-.533 1.922-.008 1.917 1.372 3.002 2.213 3.534 2.765 1.037 1.078.9 2.736.006 3.682-.31.328-.704.722-1.169 1.17-2.811 2.813-8.745 1.101-13.293-3.45C2.263 12.63.551 6.695 3.358 3.888c.503-.512.67-.678 1.16-1.161.913-.9 2.648-1.041 3.703 0Zm-2.3 1.424c-.483.476-.642.635-1.144 1.145-1.804 1.805-.423 6.595 3.45 10.471 3.87 3.875 8.66 5.257 10.478 3.438.457-.441.83-.815 1.117-1.118.208-.22.245-.671.006-.92-.397-.412-1.37-1.17-3.05-2.377a6.856 6.856 0 0 0-.505.474l-.766.767c-1.303 1.303-3.521.192-5.629-1.917-2.109-2.111-3.219-4.329-1.916-5.632l.766-.766c.123-.123.18-.18.246-.25.092-.097.167-.182.228-.257-1.166-1.623-1.958-2.637-2.385-3.06-.22-.217-.714-.177-.896.002Zm7.735-2.083a9.505 9.505 0 0 1 8.275 8.275l-1.975.33a7.503 7.503 0 0 0-6.63-6.63l.33-1.975Zm-.659 3.952a5.501 5.501 0 0 1 4.982 4.982l-1.982.33a3.5 3.5 0 0 0-3.33-3.33l.33-1.982Z" fill="#6F787E" fill-rule="nonzero"></path></svg>
+          </button>
+        </div>
+        <h4>Gợi ý thêm từ Shop</h4>
+        <div class="suggest">
+          <div class="suggest-item">
+            <div class="suggest-img">
+              <img heigh="100%" src="https://media3.scdn.vn/img4/2023/05_16/rfO9tx4zdabgTjvPs9fq.jpg" alt="Túi Đựng Chăn Màn Size Lớn 100L Gấp Gọn Nắp Khoá Kéo Cao Cấp" class="suggest-image">
+            </div>
+            <div class="suggest-detail">
+              <span>Túi Đựng Chăn Màn Size Lớn 100L Gấp Gọn Nấp Khóa Kéo Cao Cấp</span>
+              <div class="suggest-price">
+                <span>45.000đ</span>
+                <span>-44%</span>
+              </div>
+              <h6>25.000đ</h6>
+            </div>
+          </div>
+          <div class="suggest-item">
+            <div class="suggest-img">
+              <img heigh="100%" src="https://media3.scdn.vn/img4/2023/08_16/qfWv9vXp5xw0Nsrooc5e.jpg" alt="Kệ Đựng Gia Vị 4 Tầng Treo Tường Đa Năng Không Khoan Đục" class="suggest-image">
+            <div class="suggest-detail">
+              <span>Túi Đựng Chăn Màn Size Lớn 100L Gấp Gọn Nấp Khóa Kéo Cao Cấp</span>
+              <div class="suggest-price">
+                <span>45.000đ</span>
+                <span>-44%</span>
+              </div>
+              <h6>25.000đ</h6>
+            </div>
+            </div>
+          </div>
+          <div class="suggest-item">
+            <div class="suggest-img">
+              <img heigh="100%" src="https://media3.scdn.vn/img4/2023/08_21/pSiuypHZYC17aCSJapP9.jpg" alt="Hộp Đựng Giấy Vệ Sinh 2 Ngăn Dán Tường Cao Cấp" class="suggest-image">
+            <div class="suggest-detail">
+              <span>Túi Đựng Chăn Màn Size Lớn 100L Gấp Gọn Nấp Khóa Kéo Cao Cấp</span>
+              <div class="suggest-price">
+                <span>45.000đ</span>
+                <span>-44%</span>
+              </div>
+              <h6>25.000đ</h6>
+            </div>
+            </div>
+          </div>
+          <div class="suggest-item">
+            <div class="suggest-img">
+              <img heigh="100%" src="https://media3.scdn.vn/img4/2023/07_28/XWKWJCeTVvZbgjyQom6w.jpg" alt="Sáp Lau Vệ Sinh Giày Dép, Túi Xách Đa Năng Hộp 260g" class="suggest-image">
+              <div class="suggest-detail">
+                <span>Sáp Lau Vệ Sinh Giày Dép, Túi Xách Đa Năng Hộp 260g</span>
+                <div class="suggest-price">
+                  <span>35.000đ</span>
+                  <span>-40%</span>
+                </div>
+                <h6>21.000đ</h6>
+              </div>
+            </div>
+          </div>
+          <div class="suggest-item">
+            <div class="suggest-img">
+              <img heigh="100%" src="https://media3.scdn.vn/img4/2023/05_16/rfO9tx4zdabgTjvPs9fq.jpg" alt="Túi Đựng Chăn Màn Size Lớn 100L Gấp Gọn Nắp Khoá Kéo Cao Cấp" class="suggest-image">
+            </div>
+            <div class="suggest-detail">
+              <span>Túi Đựng Chăn Màn Size Lớn 100L Gấp Gọn Nấp Khóa Kéo Cao Cấp</span>
+              <div class="suggest-price">
+                <span>45.000đ</span>
+                <span>-44%</span>
+              </div>
+              <h6>25.000đ</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container__productinformation">
+        <div class="describe">
+          <h3>Mô tả sản phẩm</h3>
+          <span>🌱🌱Kéo Nhật đa năng về vàngỐI ❗️ EM ĐI NGẤT❗️ 1 chiếc kéo xịn xò MADE IN JAPAN CHƯA BAO GIỜ RẺ ĐẾN VẬY ❗️Hàng chuẩn xịn. Làm bếp thiếu e này là sai lầm lớn nhất lun ce ạ. Em ôm lô nên gom rẻ để ce mình ai cũng có thể mua nha.💛💛💛Kéo Nhật Đa Năng SK5 S...</span>
+          <h4>Chi tiết sản phẩm</h4>
+          <span>🌱🌱Kéo Nhật đa năng về vàngỐI ❗️ EM ĐI NGẤT❗️ 1 chiếc kéo xịn xò MADE IN JAPAN CHƯA BAO GIỜ RẺ ĐẾN VẬY ❗️Hàng chuẩn xịn. Làm bếp thiếu e này là sai lầm lớn nhất lun ce ạ. Em ôm lô nên gom rẻ để ce mình ai cũng có thể mua nha.💛💛💛Kéo Nhật Đa Năng SK5 S</span>
+          <button class="describe-btn">
+            <span>Xem thêm</span>
+          </button>
+        </div>
+        <div class="evaluate">
+          <div class="evaluate-heading">
+            <p>Đánh giá nhận xét về sản phẩm</p>
+            <span>(82 lượt đánh giá)</span>
+          </div>
+          <div class="evaluate-star">
+            <div class="evaluate-overview">
+              <div>
+                <h3>4.9</h3>
+                <h4>/</h4>
+                <p>5</p>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <span>Đây là thông tin nười mua đánh giá shop bán sản phẩm này có đúng mô tả không</span>
+            </div>
+            <div class="evaluate-detail">
+              <div class="evaluate-fivestar">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <div class="evaluate-percent">
+                  <div></div>
+                </div>
+                <span>78</span>
+              </div>
+              <div class="evaluate-fourstar">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="evaluate-nostar fa-solid fa-star"></i>
+                <div class="evaluate-percent">
+                  <div></div>
+                </div>
+                <span>2</span>
+              </div>
+              <div class="evaluate-threestar">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="evaluate-nostar fa-solid fa-star"></i>
+                <i class="evaluate-nostar fa-solid fa-star"></i>
+                <div class="evaluate-percent">
+                  <div></div>
+                </div>
+                <span>0</span>
+              </div>
+              <div class="evaluate-twostar">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="evaluate-nostar fa-solid fa-star"></i>
+                <i class="evaluate-nostar fa-solid fa-star"></i>
+                <i class="evaluate-nostar fa-solid fa-star"></i>
+                <div class="evaluate-percent">
+                  <div></div>
+                </div>
+                <span>2</span>
+              </div>
+              <div class="evaluate-onestar">
+                <i class="fa-solid fa-star"></i>
+                <i class="evaluate-nostar fa-solid fa-star"></i>
+                <i class="evaluate-nostar fa-solid fa-star"></i>
+                <i class="evaluate-nostar fa-solid fa-star"></i>
+                <i class="evaluate-nostar fa-solid fa-star"></i>
+                <div class="evaluate-percent">
+                  <div></div>
+                </div>
+                <span>0</span>
+              </div>
+            </div>
+          </div>
+          <div class="evaluate-userreviews">
+            <button>
+              <span>Tất cả</span>
+            </button>
+            <button>
+              <span>5 sao</span>
+            </button>
+            <button>
+              <span>4 sao</span>
+            </button>
+            <button>
+              <span>3 sao</span>
+            </button>
+            <button>
+              <span>2 sao</span>
+            </button>
+            <button>
+              <span>1 sao</span>
+            </button>
+            <button>
+              <span>Đánh giá có hình</span>
+            </button>
+          </div>
+          <div class="evaluate-listcomment">
+            <div class="evaluate-commentitem">
+              <div class="comment-heading">
+                 <div class="comment-avatar">
+                  <img src="https://media3.scdn.vn/img4/2021/09_05/SOpjVG6smtCsn32McDtY.jpg" alt="Dung Huynh" class="comment-img">
+                  <div>
+                    <p>Dung Huynh</p>
+                    <span>11:20 |11/11/2023</span>
+                  </div>
+                 </div>
+                 <div class="comment-star">
+                   <i class="fa-solid fa-star"></i>
+                   <i class="fa-solid fa-star"></i>
+                   <i class="fa-solid fa-star"></i>
+                   <i class="fa-solid fa-star"></i>
+                   <i class="fa-solid fa-star"></i>
+                 </div>
+              </div>
+              <span>Chuyên nghiệp, thân thiện. Đẹp như mô tả. Đóng gói kỹ lưỡng. Chất lượng tuyệt vời. Giá tốt. Giao hàng nhanh bất ngờ. OK</span>
+              <div class="comment-mxh">
+                <button>
+                  <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" class="d7ed-SwZDZ2"><path d="M7 1v1h14.125l-2.999 6 3 6H7v9H5V1h2Zm10.89 3H7v8h10.89l-2-4 2-4Z" fill="#6F787E" fill-rule="nonzero"></path></svg>
+                </button>
+                <div class="comment-like">
+                  <button>
+                    <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" class="d7ed-SwZDZ2"><path d="M13 2c.615 0 1.142.045 1.748.222C16.092 2.612 17 3.527 17 4.999c0 .52-.092 1.075-.262 1.69-.112.407-.25.819-.44 1.329l-.343.905-.028.076H19c1.87 0 3 1.318 3 3 0 5.944-1.245 10-4 10h-6.966a6.741 6.741 0 0 1-2.37-.382 4.884 4.884 0 0 1-1.012-.492A1.992 1.992 0 0 1 6 22H4a2 2 0 0 1-2-2v-9a2 2 0 0 1 2-2h2a2 2 0 0 1 .57.083c1.072-1.562 4.685-5.508 5.65-6.71l.3-.374H13Zm.46 2.014c-1.546 1.848-5.053 5.687-5.318 6.305a1.66 1.66 0 0 0-.142.669v7.036l.006.15c.056.795.505 1.265 1.33 1.56a4.81 4.81 0 0 0 1.627.266H18c1.015 0 2-3.21 2-8 0-.641-.309-1-1-1h-4c-1.195 0-1.444-.925-1.195-1.925.058-.235.144-.494.274-.845.057-.154.29-.765.344-.91.171-.46.293-.821.387-1.162.126-.457.19-.842.19-1.159 0-.45-.238-.69-.81-.857a3.501 3.501 0 0 0-.73-.128ZM6 11H4v9h2v-9Z" fill="#6F787E" fill-rule="nonzero"></path></svg>
+                  </button>
+                  <span>Hữu ích</span>
+                </div>
+              </div>
+            </div>
+            <div class="evaluate-commentitem">
+              <div class="comment-heading">
+                 <div class="comment-avatar">
+                  <img src="https://media3.scdn.vn/img4/2021/01_11/zkLs5U9BuMYax19rViNJ.jpg" alt="Thuy Tran" class="comment-img">
+                  <div>
+                    <p>Thuy Tran</p>
+                    <span>15:56 |26/08/2023</span>
+                  </div>
+                 </div>
+                 <div class="comment-star">
+                   <i class="fa-solid fa-star"></i>
+                   <i class="fa-solid fa-star"></i>
+                   <i class="fa-solid fa-star"></i>
+                   <i class="fa-solid fa-star"></i>
+                   <i class="fa-solid fa-star"></i>
+                 </div>
+              </div>
+              <span>Chuyên nghiệp, thân thiện. Đẹp như mô tả. Đóng gói kỹ lưỡng. Chất lượng tuyệt vời. Giá tốt. Giao hàng nhanh bất ngờ. OK</span>
+              <div class="comment-mxh">
+                <button>
+                  <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" class="d7ed-SwZDZ2"><path d="M7 1v1h14.125l-2.999 6 3 6H7v9H5V1h2Zm10.89 3H7v8h10.89l-2-4 2-4Z" fill="#6F787E" fill-rule="nonzero"></path></svg>
+                </button>
+                <div class="comment-like">
+                  <button>
+                    <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" class="d7ed-SwZDZ2"><path d="M13 2c.615 0 1.142.045 1.748.222C16.092 2.612 17 3.527 17 4.999c0 .52-.092 1.075-.262 1.69-.112.407-.25.819-.44 1.329l-.343.905-.028.076H19c1.87 0 3 1.318 3 3 0 5.944-1.245 10-4 10h-6.966a6.741 6.741 0 0 1-2.37-.382 4.884 4.884 0 0 1-1.012-.492A1.992 1.992 0 0 1 6 22H4a2 2 0 0 1-2-2v-9a2 2 0 0 1 2-2h2a2 2 0 0 1 .57.083c1.072-1.562 4.685-5.508 5.65-6.71l.3-.374H13Zm.46 2.014c-1.546 1.848-5.053 5.687-5.318 6.305a1.66 1.66 0 0 0-.142.669v7.036l.006.15c.056.795.505 1.265 1.33 1.56a4.81 4.81 0 0 0 1.627.266H18c1.015 0 2-3.21 2-8 0-.641-.309-1-1-1h-4c-1.195 0-1.444-.925-1.195-1.925.058-.235.144-.494.274-.845.057-.154.29-.765.344-.91.171-.46.293-.821.387-1.162.126-.457.19-.842.19-1.159 0-.45-.238-.69-.81-.857a3.501 3.501 0 0 0-.73-.128ZM6 11H4v9h2v-9Z" fill="#6F787E" fill-rule="nonzero"></path></svg>
+                  </button>
+                  <span>Hữu ích</span>
+                </div>
+              </div>
+            </div>
+            <div class="evaluate-commentitem">
+              <div class="comment-heading">
+                 <div class="comment-avatar">
+                  <img src="https://media3.scdn.vn/img4/2021/01_11/zkLs5U9BuMYax19rViNJ.jpg" alt="nguyen thi hoan" class="comment-img">
+                  <div>
+                    <p>nguyen thi hoan</p>
+                    <span>11:40 |02/11/2023</span>
+                  </div>
+                 </div>
+                 <div class="comment-star">
+                   <i class="fa-solid fa-star"></i>
+                   <i class="fa-solid fa-star"></i>
+                   <i class="fa-solid fa-star"></i>
+                   <i class="fa-solid fa-star"></i>
+                   <i class="fa-solid fa-star"></i>
+                 </div>
+              </div>
+              <span>Chuyên nghiệp, thân thiện. Đẹp như mô tả. Đóng gói kỹ lưỡng. Chất lượng tuyệt vời. Giá tốt. Giao hàng nhanh bất ngờ. OK</span>
+              <div class="comment-mxh">
+                <button>
+                  <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" class="d7ed-SwZDZ2"><path d="M7 1v1h14.125l-2.999 6 3 6H7v9H5V1h2Zm10.89 3H7v8h10.89l-2-4 2-4Z" fill="#6F787E" fill-rule="nonzero"></path></svg>
+                </button>
+                <div class="comment-like">
+                  <button>             
+                    <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" class="d7ed-SwZDZ2"><path d="M13 2c.615 0 1.142.045 1.748.222C16.092 2.612 17 3.527 17 4.999c0 .52-.092 1.075-.262 1.69-.112.407-.25.819-.44 1.329l-.343.905-.028.076H19c1.87 0 3 1.318 3 3 0 5.944-1.245 10-4 10h-6.966a6.741 6.741 0 0 1-2.37-.382 4.884 4.884 0 0 1-1.012-.492A1.992 1.992 0 0 1 6 22H4a2 2 0 0 1-2-2v-9a2 2 0 0 1 2-2h2a2 2 0 0 1 .57.083c1.072-1.562 4.685-5.508 5.65-6.71l.3-.374H13Zm.46 2.014c-1.546 1.848-5.053 5.687-5.318 6.305a1.66 1.66 0 0 0-.142.669v7.036l.006.15c.056.795.505 1.265 1.33 1.56a4.81 4.81 0 0 0 1.627.266H18c1.015 0 2-3.21 2-8 0-.641-.309-1-1-1h-4c-1.195 0-1.444-.925-1.195-1.925.058-.235.144-.494.274-.845.057-.154.29-.765.344-.91.171-.46.293-.821.387-1.162.126-.457.19-.842.19-1.159 0-.45-.238-.69-.81-.857a3.501 3.501 0 0 0-.73-.128ZM6 11H4v9h2v-9Z" fill="#6F787E" fill-rule="nonzero"></path></svg>
+                  </button>
+                  <span>Hữu ích</span>
+                </div>
+              </div>
+            </div>
+            <div class="evaluate-commentitem">
+              <div class="comment-heading">
+                 <div class="comment-avatar">
+                  <img src="https://media3.scdn.vn/img4/2020/01_08/rJ7GTgybLqFBJW1vb0GP.png" alt="Nguyễn Văn Chiêu" class="comment-img">
+                  <div>
+                    <p>Nguyễn Văn Chiêu</p>
+                    <span>11:20 |11/11/2023</span>
+                  </div>
+                 </div>
+                 <div class="comment-star">
+                   <i class="fa-solid fa-star"></i>
+                   <i class="fa-solid fa-star"></i>
+                   <i class="fa-solid fa-star"></i>
+                   <i class="fa-solid fa-star"></i>
+                   <i class="fa-solid fa-star"></i>
+                 </div>
+              </div>
+              <span>Chuyên nghiệp, thân thiện. Đẹp như mô tả. Đóng gói kỹ lưỡng. Chất lượng tuyệt vời. Giá tốt. Giao hàng nhanh bất ngờ. OK</span>
+              <div class="comment-mxh">
+                <button>
+                  <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" class="d7ed-SwZDZ2"><path d="M7 1v1h14.125l-2.999 6 3 6H7v9H5V1h2Zm10.89 3H7v8h10.89l-2-4 2-4Z" fill="#6F787E" fill-rule="nonzero"></path></svg>
+                </button>
+                <div class="comment-like">
+                  <button>
+                    <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" class="d7ed-SwZDZ2"><path d="M13 2c.615 0 1.142.045 1.748.222C16.092 2.612 17 3.527 17 4.999c0 .52-.092 1.075-.262 1.69-.112.407-.25.819-.44 1.329l-.343.905-.028.076H19c1.87 0 3 1.318 3 3 0 5.944-1.245 10-4 10h-6.966a6.741 6.741 0 0 1-2.37-.382 4.884 4.884 0 0 1-1.012-.492A1.992 1.992 0 0 1 6 22H4a2 2 0 0 1-2-2v-9a2 2 0 0 1 2-2h2a2 2 0 0 1 .57.083c1.072-1.562 4.685-5.508 5.65-6.71l.3-.374H13Zm.46 2.014c-1.546 1.848-5.053 5.687-5.318 6.305a1.66 1.66 0 0 0-.142.669v7.036l.006.15c.056.795.505 1.265 1.33 1.56a4.81 4.81 0 0 0 1.627.266H18c1.015 0 2-3.21 2-8 0-.641-.309-1-1-1h-4c-1.195 0-1.444-.925-1.195-1.925.058-.235.144-.494.274-.845.057-.154.29-.765.344-.91.171-.46.293-.821.387-1.162.126-.457.19-.842.19-1.159 0-.45-.238-.69-.81-.857a3.501 3.501 0 0 0-.73-.128ZM6 11H4v9h2v-9Z" fill="#6F787E" fill-rule="nonzero"></path></svg>
+                  </button>
+                  <span>Hữu ích</span>
+                </div>
+              </div>
+            </div>
+            <div class="evaluate-comment-btn">
+              <button>
+                <span><svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" class="d7ed-SwZDZ2 d7ed-w34diS"><g id="24-/-arrows-/-icon24_arrow_back_default" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><path id="icon-background" fill="#6F787E" fill-rule="nonzero" d="m6.414 13 6.293 6.293-1.414 1.414L2.586 12l8.707-8.707 1.414 1.414L6.414 11H21v2z"></path></g></svg></span>
+              </button>
+              <button>
+                <span>1</span>
+              </button>
+              <button>
+                <span>2</span>
+              </button>
+              <button>
+                <span>3</span>
+              </button>
+              <button>
+                <span>4</span>
+              </button>
+              <button>
+                <span class="...">...</span>
+              </button>
+              <button>
+                <span>9</span>
+              </button>
+              <button>
+                <span><svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" class="d7ed-SwZDZ2 d7ed-w34diS"><g id="24-/-arrows-/-icon24_arrow_right_default" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><path id="icon-background" fill="#6F787E" fill-rule="nonzero" d="M17.586 13H3v-2h14.586l-6.293-6.293 1.414-1.414L21.414 12l-8.707 8.707-1.414-1.414z"></path></g></svg></span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="footer">
+          <div class="what">
+            <p>Hỏi về sản phẩm</p>
+            <button>
+              <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" class="d7ed-SwZDZ2 d7ed-w34diS"><path d="M7 1v1h14.125l-2.999 6 3 6H7v9H5V1h2Zm10.89 3H7v8h10.89l-2-4 2-4Z" fill="#6F787E" fill-rule="nonzero"></path></svg>
+            </button>
+          </div>
+          <span>Bạn có thắc mắc cần giải đáp?</span>
+          <button class="what-btn">
+            <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" class="d7ed-SwZDZ2 d7ed-w34diS"><path d="M20 2a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2h-7.913L6 21.804V18H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h16Zm0 2H4v12h4v2.196L11.513 16H20V4Zm-6 7v2H7v-2h7Zm2-4v2H7V7h9Z" fill="#6F787E" fill-rule="nonzero"></path></svg>
+            <span>Hỏi Shop ngay</span>
+          </button>
+        </div>
+      </div>
+    </div>
+    <p>Ở đây có sản phẩm bạn thích</p>
+    <div class="container__listproduct">
+      <div class="container__product">
+        <div class="container__product-image">
+          <img width="100%" heigh="100%" data-src="https://media3.scdn.vn/img4/2023/04_24/K3trquhUZYMVA6NB5TFP_simg_b5529c_250x250_maxb.png" src="https://media3.scdn.vn/img4/2023/04_24/K3trquhUZYMVA6NB5TFP_simg_b5529c_250x250_maxb.png" alt="Áo thun nam cổ tròn THÁI KHANG vải thun lạnh co dãn 4 chiều siêu mát ATRON12" class="container__product-img">
+          <svg xmlns="http://www.w3.org/2000/svg" width="1.4rem" height="1.4rem" viewBox="0 0 40 40" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" class="container__product-logo"><g fill-rule="nonzero" fill="none"><rect width="37.5" height="37.5" x="1.25" y="1.25" fill="#0F1E29" fill-opacity="0.5" stroke="#FFF" stroke-width="2.5" rx="18.75"></rect><path fill="#FFF" d="M15 27.29V12.71c0-1.145 1.188-1.843 2.104-1.236l11 7.29c.861.571.861 1.901 0 2.472l-11 7.29c-.917.607-2.104-.09-2.104-1.236z"></path></g></svg>
+        </div>
+        <div class="container__product-intro">
+          <div class="container__product-intro-logo">
+            <img src="https://media3.scdn.vn/img4/2023/11_02/LTQdoOT4idtS0xtMVjSS.png" alt="sale-event" class="">
+          </div>
+          <h3>
+            <img mr="1" src="https://media3.scdn.vn/img4/2020/07_30/h6fJaiL5WkEbDU2eQRZb.png" alt="shop-badge" class="">
+            Áo thun nam cổ tròn THÁI KHANG vải thun lạnh co dãn 4 chiều siêu mát ATRON12
+          </h3>
+          <div class="container__product-intro-price">
+            <div class="container__product-intro-price-old">
+              <span>
+                190.000đ
+              </span>
+              <span>
+                -71%
+              </span>
+            </div>
+            <span>59.000đ</span>
+          </div>
+          <div class="container__product-intro-selective">
+            <div class="container__product-intro-select">
+              <img conponent="[object Object]" width="12px" height="12px" src="https://media3.scdn.vn/img4/2023/10_25/VOz7ApKp5huVU7A97OAQ.png" alt="promotion-icon" class="container__product-intro-selectlogo">
+              <span>Chọn lọc bởi Sendo</span>
+            </div>
+          </div>
+          <div class="container__product-intro-sold">
+            <span>Đã bán 1</span>
+          </div>
+          <div class="container__product-intro-evaluate">
+            <div class="container__product-intro-star">
+              <span>5/5</span>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <span>TP.HCM</span>
+          </div>
+        </div>
+      </div>
+      <div class="container__product">
+        <div class="container__product-image">
+          <img heigh="100%" data-src="https://media3.scdn.vn/img4/2023/07_20/OuEjfEK44rv1NC2DQM4d_simg_b5529c_250x250_maxb.jpg" src="https://media3.scdn.vn/img4/2023/07_20/OuEjfEK44rv1NC2DQM4d_simg_b5529c_250x250_maxb.jpg" alt="Khay Đá Silicon Có Nắp Đậy 14 Viên, Khay Đựng Đá Tủ Lạnh, Làm Đá Thạch Kem Bảo Quản Chống Mùi Tuyệt Đối - S124" class="container__product-img">
+          <svg xmlns="http://www.w3.org/2000/svg" width="1.4rem" height="1.4rem" viewBox="0 0 40 40" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" class="container__product-logo"><g fill-rule="nonzero" fill="none"><rect width="37.5" height="37.5" x="1.25" y="1.25" fill="#0F1E29" fill-opacity="0.5" stroke="#FFF" stroke-width="2.5" rx="18.75"></rect><path fill="#FFF" d="M15 27.29V12.71c0-1.145 1.188-1.843 2.104-1.236l11 7.29c.861.571.861 1.901 0 2.472l-11 7.29c-.917.607-2.104-.09-2.104-1.236z"></path></g></svg>
+          <div class="container__product-sponsor">
+            <span>Tài trợ</span>
+          </div>
+        </div>
+        <div class="container__product-intro">
+          <div class="container__product-intro-logo">
+            <img src="https://media3.scdn.vn/img4/2023/11_02/LTQdoOT4idtS0xtMVjSS.png" alt="sale-event" class="" style="display: block;">
+            <img src="https://media3.scdn.vn/img4/2022/11_09/0vChQUAK0qPDX3cOD6rV.png" alt="free-ship" class="">
+          </div>
+          <h3>
+            <img mr="1" src="https://media3.scdn.vn/img4/2020/07_30/h6fJaiL5WkEbDU2eQRZb.png" alt="shop-badge" class="">
+            Khay Đá Silicon Có Nắp Đậy 14 Viên, Khay Đựng Đá Tủ Lạnh, Làm Đá Thạch Kem Bảo Quản Chống Mùi Tuyệt Đối - S124
+          </h3>
+          <div class="container__product-intro-price">
+            <div class="container__product-intro-price-old">
+              <span>
+                22.000đ
+              </span>
+              <span>
+                -32%
+              </span>
+            </div>
+            <span>15.000đ</span>
+          </div>
+          <div class="container__product-intro-selective">
+            <div class="container__product-intro-select">
+              <img conponent="[object Object]" width="12px" height="12px" src="https://media3.scdn.vn/img4/2023/10_25/VOz7ApKp5huVU7A97OAQ.png" alt="promotion-icon" class="container__product-intro-selectlogo">
+              <span>Chọn lọc bởi Sendo</span>
+            </div>
+          </div>
+          <div class="container__product-intro-sold">
+            <span>Mở bán</span>
+          </div>
+          <div class="container__product-intro-evaluate">
+            <div class="container__product-intro-star">
+              <span>4.9/5</span>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <span>TP.HCM</span>
+          </div>
+        </div>
+      </div>
+      <div class="container__product">
+        <div class="container__product-image">
+          <img heigh="100%" data-src="https://media3.scdn.vn/img4/2023/04_10/6rcHSSGtjLiTBMClAJQS_simg_b5529c_250x250_maxb.jpg" src="https://media3.scdn.vn/img4/2023/04_10/6rcHSSGtjLiTBMClAJQS_simg_b5529c_250x250_maxb.jpg" alt="Ly Giữ Nhiệt (Loại Lớn) Dung Tích 600ml Inox 304 Cao Cấp Không Gỉ Americano" class="container__product-img">
+          <svg xmlns="http://www.w3.org/2000/svg" width="1.4rem" height="1.4rem" viewBox="0 0 40 40" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" class="container__product-logo"><g fill-rule="nonzero" fill="none"><rect width="37.5" height="37.5" x="1.25" y="1.25" fill="#0F1E29" fill-opacity="0.5" stroke="#FFF" stroke-width="2.5" rx="18.75"></rect><path fill="#FFF" d="M15 27.29V12.71c0-1.145 1.188-1.843 2.104-1.236l11 7.29c.861.571.861 1.901 0 2.472l-11 7.29c-.917.607-2.104-.09-2.104-1.236z"></path></g></svg>
+        </div>
+        <div class="container__product-intro">
+          <h3>
+            <img mr="1" src="https://media3.scdn.vn/img4/2020/07_30/h6fJaiL5WkEbDU2eQRZb.png" alt="shop-badge" class="">
+            Ly Giữ Nhiệt (Loại Lớn) Dung Tích 600ml Inox 304 Cao Cấp Không Gỉ Americano
+          </h3>
+          <div class="container__product-intro-price">
+            <div class="container__product-intro-price-old">
+              <span>
+                119.000đ
+              </span>
+              <span>
+                -60%
+              </span>
+            </div>
+            <span>48.000đ</span>
+          </div>
+          <div class="container__product-intro-selective">
+            <div class="container__product-intro-select">
+              <img conponent="[object Object]" width="12px" height="12px" src="https://media3.scdn.vn/img4/2023/10_25/VOz7ApKp5huVU7A97OAQ.png" alt="promotion-icon" class="container__product-intro-selectlogo">
+              <span>Chọn lọc bởi Sendo</span>
+            </div>
+          </div>
+          <!-- <div class="container__product-intro-sold">
+            <span>Đã bán 1</span>
+          </div> -->
+          <span>Đã bán 33</span>
+          <div class="container__product-intro-evaluate">
+            <div class="container__product-intro-star">
+              <span>5/5</span>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <span>Quảng Nam</span>
+          </div>
+        </div>
+      </div>
+      <div class="container__product">
+        <div class="container__product-heading">
+          <svg xmlns="http://www.w3.org/2000/svg" width="1rem" height="1rem" viewBox="0 0 24 24" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" class="d7ed-SwZDZ2"><path d="M22 14v7a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2v-2h2v2h16v-7h2zm0-7v5h-2v-1.778l-5.785 5.168-4.336-4.537-3.928 3.154A2.5 2.5 0 1 1 1 14.5a2.5 2.5 0 0 1 3.8-2.136l5.258-4.218 4.267 4.464L18.366 9H17V7h5zM3.5 14a.5.5 0 1 0 0 1 .5.5 0 0 0 0-1zM20 1a2 2 0 0 1 2 2v2h-2V3H4v7H2V3a2 2 0 0 1 2-2h16z" fill="#55ba78" fill-rule="nonzero"></path></svg>
+          <span>Xu hướng tìm kiếm</span>
+  
+        </div>
+        <div class="container__product-image" style="margin: 8px;">
+          <img conponent="[object Object]" heigh="100%" radius="bold" src="https://media3.scdn.vn/img4/2022/05_22/sBh3V4EbkVMS0B0wIbLh_simg_b5529c_250x250_maxb.jpg" alt="tại nghe bluetooth" class="container__product-img">
+          <!-- <svg xmlns="http://www.w3.org/2000/svg" width="1.4rem" height="1.4rem" viewBox="0 0 40 40" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" class="container__product-logo"><g fill-rule="nonzero" fill="none"><rect width="37.5" height="37.5" x="1.25" y="1.25" fill="#0F1E29" fill-opacity="0.5" stroke="#FFF" stroke-width="2.5" rx="18.75"></rect><path fill="#FFF" d="M15 27.29V12.71c0-1.145 1.188-1.843 2.104-1.236l11 7.29c.861.571.861 1.901 0 2.472l-11 7.29c-.917.607-2.104-.09-2.104-1.236z"></path></g></svg> -->
+        </div>
+        <div class="container__product-intro" style="padding-bottom: 15px;">
+          <h3 style="height: 100%;">
+            <!-- <img mr="1" src="https://media3.scdn.vn/img4/2020/07_30/h6fJaiL5WkEbDU2eQRZb.png" alt="shop-badge" class=""> -->
+            tai nghe bluetooth
+          </h3>
+          <span style="color:  #55ba78;">
+            Hơn 21K đang bán
+          </span>
+          <div class="container__product-intro-discover">
+            <span>Khám phá ngay</span>
+          </div>
+        </div>
+      </div>
+      <div class="container__product">
+        <div class="container__product-image">
+          <img heigh="100%" data-src="https://media3.scdn.vn/img4/2020/08_26/BrAF8LoABnxDG1jSqG6O_simg_b5529c_250x250_maxb.jpg" src="https://media3.scdn.vn/img4/2020/08_26/BrAF8LoABnxDG1jSqG6O_simg_b5529c_250x250_maxb.jpg" alt="Aó Khoác Dù Nam Nữ Phong Cách Thời Trang Chống Nắng Và  UV,TiaCực Tím Lớp Trong chống nước [giá 1sản phẫm]" class="container__product-img">
+          <svg xmlns="http://www.w3.org/2000/svg" width="1.4rem" height="1.4rem" viewBox="0 0 40 40" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" class="container__product-logo"><g fill-rule="nonzero" fill="none"><rect width="37.5" height="37.5" x="1.25" y="1.25" fill="#0F1E29" fill-opacity="0.5" stroke="#FFF" stroke-width="2.5" rx="18.75"></rect><path fill="#FFF" d="M15 27.29V12.71c0-1.145 1.188-1.843 2.104-1.236l11 7.29c.861.571.861 1.901 0 2.472l-11 7.29c-.917.607-2.104-.09-2.104-1.236z"></path></g></svg>
+        </div>
+        <div class="container__product-intro">
+          <h3>
+            <img mr="1" src="https://media3.scdn.vn/img4/2020/07_30/h6fJaiL5WkEbDU2eQRZb.png" alt="shop-badge" class="">
+            Aó Khoác Dù Nam Nữ Phong Cách Thời Trang Chống Nắng Và  UV,TiaCực Tím Lớp Trong chống nước [giá 1sản phẫm]
+          </h3>
+          <div class="container__product-intro-price">
+            <div class="container__product-intro-price-old">
+              <span>
+                240.000đ
+              </span>
+              <span>
+                -55%
+              </span>
+            </div>
+            <span>109.000đ</span>
+          </div>
+          <div class="container__product-intro-installment">
+            <img height="12px" width="12px" conponent="[object Object]" src="https://media3.scdn.vn/img4/2023/08_29/58kB4kKUOFCuvIJJWAu6.png" alt="promotion-icon" class="">
+            <span>Trả góp AFTEE</span>
+          </div>
+          <span>Đã bán 451</span>
+          <div class="container__product-intro-evaluate">
+            <div class="container__product-intro-star">
+              <span>4.7/5</span>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <span>TP.HCM</span>
+          </div>
+        </div>
+      </div>
+      <div class="container__product">
+        <div class="container__product-image">
+          <img heigh="100%" width="100%" data-src="https://media3.scdn.vn/img4/2021/12_26/MUBwZCAfkNw9ZXv0oSNX_simg_b5529c_250x250_maxb.jpg" src="https://media3.scdn.vn/img4/2021/12_26/MUBwZCAfkNw9ZXv0oSNX_simg_b5529c_250x250_maxb.jpg" alt="Áo kiểu lụa mềm" class="container__product-img">
+          <!-- <svg xmlns="http://www.w3.org/2000/svg" width="1.4rem" height="1.4rem" viewBox="0 0 40 40" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" class="container__product-logo"><g fill-rule="nonzero" fill="none"><rect width="37.5" height="37.5" x="1.25" y="1.25" fill="#0F1E29" fill-opacity="0.5" stroke="#FFF" stroke-width="2.5" rx="18.75"></rect><path fill="#FFF" d="M15 27.29V12.71c0-1.145 1.188-1.843 2.104-1.236l11 7.29c.861.571.861 1.901 0 2.472l-11 7.29c-.917.607-2.104-.09-2.104-1.236z"></path></g></svg> -->
+        </div>
+        <div class="container__product-intro">
+          <h3 style="margin-bottom: 30px;">
+            <!-- <img mr="1" src="https://media3.scdn.vn/img4/2020/07_30/h6fJaiL5WkEbDU2eQRZb.png" alt="shop-badge" class=""> -->
+            Aó kiểu lụa mềm
+          </h3>
+          <div class="container__product-intro-price">
+            <span>180.000đ</span>
+          </div>
+          <div class="container__product-intro-installment">
+            <img height="12px" width="12px" conponent="[object Object]" src="https://media3.scdn.vn/img4/2023/08_29/58kB4kKUOFCuvIJJWAu6.png" alt="promotion-icon" class="">
+            <span>Trả góp AFTEE</span>
+          </div>
+          <span>Đã bán 451</span>
+          <div class="container__product-intro-evaluate">
+            <div class="container__product-intro-star">
+              <span>4.7/5</span>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <span>TP.HCM</span>
+          </div>
+        </div>
+      </div>
+      <div class="container__product">
+        <div class="container__product-heading" style="background-color: #fff;">
+          <img width="15px" height="15px" conponent="[object Object]" src="https://media3.scdn.vn/img4/2021/01_14/yzbaMx2U6jyaMLST76q1.png" alt="recommend-icon" class="">
+          <span>Thời trang nữ</span>
+  
+        </div>
+        <div class="container__product-image" >
+          <img conponent="[object Object]" heigh="100%" radius="bold" src="https://media3.scdn.vn/images/ecom/category/26.jpg" alt="Đầm, váy" class="container__product-img">
+          <!-- <svg xmlns="http://www.w3.org/2000/svg" width="1.4rem" height="1.4rem" viewBox="0 0 40 40" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" class="container__product-logo"><g fill-rule="nonzero" fill="none"><rect width="37.5" height="37.5" x="1.25" y="1.25" fill="#0F1E29" fill-opacity="0.5" stroke="#FFF" stroke-width="2.5" rx="18.75"></rect><path fill="#FFF" d="M15 27.29V12.71c0-1.145 1.188-1.843 2.104-1.236l11 7.29c.861.571.861 1.901 0 2.472l-11 7.29c-.917.607-2.104-.09-2.104-1.236z"></path></g></svg> -->
+        </div>
+        <div class="container__product-intro" style="padding-bottom: 40px;">
+          <!-- <div class="container__product-intro-logo">
+            <img src="https://media3.scdn.vn/img4/2023/11_02/LTQdoOT4idtS0xtMVjSS.png" alt="sale-event" class="">
+          </div> -->
+          <h3 style="height: 100%;">
+            <!-- <img mr="1" src="https://media3.scdn.vn/img4/2020/07_30/h6fJaiL5WkEbDU2eQRZb.png" alt="shop-badge" class=""> -->
+            Đầm, Váy
+          </h3>
+          <span style="color:  #4259ab;">
+            Hơn 150K đang bán
+          </span>
+          <div class="container__product-intro-discover" style="background-color: #4259ab; margin-top: 10px;">
+            <span>Khám phá ngay</span>
+          </div>
+        </div>
+      </div>
+      <div class="container__product">
+        <div class="container__product-heading">
+          <svg xmlns="http://www.w3.org/2000/svg" width="1rem" height="1rem" viewBox="0 0 24 24" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" class="d7ed-SwZDZ2"><path d="M22 14v7a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2v-2h2v2h16v-7h2zm0-7v5h-2v-1.778l-5.785 5.168-4.336-4.537-3.928 3.154A2.5 2.5 0 1 1 1 14.5a2.5 2.5 0 0 1 3.8-2.136l5.258-4.218 4.267 4.464L18.366 9H17V7h5zM3.5 14a.5.5 0 1 0 0 1 .5.5 0 0 0 0-1zM20 1a2 2 0 0 1 2 2v2h-2V3H4v7H2V3a2 2 0 0 1 2-2h16z" fill="#55ba78" fill-rule="nonzero"></path></svg>
+          <span>Xu hướng tìm kiếm</span>
+  
+        </div>
+        <div class="container__product-image" style="margin: 0 8px;">
+          <img conponent="[object Object]" heigh="100%" radius="bold" src="https://media3.scdn.vn/img4/2021/08_19/QlvA7CD9tIYrmwWVgheW_simg_b5529c_250x250_maxb.jpg" alt="thẻ game garena" class="container__product-img">
+        </div>
+        <div class="container__product-intro" style="padding-bottom: 60px;">
+          <h3 style="height: 100%;">
+            thẻ game garena
+          </h3>
+          <span style="color:  #55ba78;">
+            Hơn 160 SP đang bán
+          </span>
+          <div class="container__product-intro-discover">
+            <span>Khám phá ngay</span>
+          </div>
+        </div>
+      </div>
+      <div class="container__product">
+        <div class="container__product-image">
+          <img heigh="100%" data-src="https://media3.scdn.vn/img4/2023/07_20/OuEjfEK44rv1NC2DQM4d_simg_b5529c_250x250_maxb.jpg" src="https://media3.scdn.vn/img4/2023/07_20/OuEjfEK44rv1NC2DQM4d_simg_b5529c_250x250_maxb.jpg" alt="Khay Đá Silicon Có Nắp Đậy 14 Viên, Khay Đựng Đá Tủ Lạnh, Làm Đá Thạch Kem Bảo Quản Chống Mùi Tuyệt Đối - S124" class="container__product-img">
+          <svg xmlns="http://www.w3.org/2000/svg" width="1.4rem" height="1.4rem" viewBox="0 0 40 40" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" class="container__product-logo"><g fill-rule="nonzero" fill="none"><rect width="37.5" height="37.5" x="1.25" y="1.25" fill="#0F1E29" fill-opacity="0.5" stroke="#FFF" stroke-width="2.5" rx="18.75"></rect><path fill="#FFF" d="M15 27.29V12.71c0-1.145 1.188-1.843 2.104-1.236l11 7.29c.861.571.861 1.901 0 2.472l-11 7.29c-.917.607-2.104-.09-2.104-1.236z"></path></g></svg>
+          <div class="container__product-sponsor">
+            <span>Tài trợ</span>
+          </div>
+        </div>
+        <div class="container__product-intro">
+          <div class="container__product-intro-logo">
+            <img src="https://media3.scdn.vn/img4/2023/11_02/LTQdoOT4idtS0xtMVjSS.png" alt="sale-event" class="" style="display: block;">
+          </div>
+          <h3>
+            <img mr="1" src="https://media3.scdn.vn/img4/2020/07_30/h6fJaiL5WkEbDU2eQRZb.png" alt="shop-badge" class="">
+            BỊCH GIẤY RÚT LỤA HÀNG KHÔNG 300 TỜ / 3 LỚP. GIẤY MỊN, DAI
+          </h3>
+          <div class="container__product-intro-price">
+            <div class="container__product-intro-price-old">
+              <span>
+                22.000đ
+              </span>
+              <span>
+                -65%
+              </span>
+            </div>
+            <span>7.000đ</span>
+          </div>
+          <div class="container__product-intro-selective">
+            <div class="container__product-intro-select" style="background-color: rgb(242, 243, 244);">
+              <img width="10px" height="10px" conponent="[object Object]" src="https://media3.scdn.vn/img4/2023/04_17/uRpqpuUUe3NDEoErtrUo.png" alt="promotion-icon" class="">
+              <span>Trả góp Muadee</span>
+            </div>
+          </div>
+          <div class="container__product-intro-sold">
+            <span>Đã bán 4</span>
+          </div>
+          <div class="container__product-intro-evaluate" style="padding-bottom: 20px;">
+            <div class="container__product-intro-star">
+              <span>4.7/5</span>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <span>TP.HCM</span>
+          </div>
+        </div>
+      </div>
+      <div class="container__product">
+        <div class="container__product-image">
+          <img heigh="100%" data-src="https://media3.scdn.vn/img4/2023/07_20/OuEjfEK44rv1NC2DQM4d_simg_b5529c_250x250_maxb.jpg" src="https://media3.scdn.vn/img4/2023/07_20/OuEjfEK44rv1NC2DQM4d_simg_b5529c_250x250_maxb.jpg" alt="Khay Đá Silicon Có Nắp Đậy 14 Viên, Khay Đựng Đá Tủ Lạnh, Làm Đá Thạch Kem Bảo Quản Chống Mùi Tuyệt Đối - S124" class="container__product-img">
+          <svg xmlns="http://www.w3.org/2000/svg" width="1.4rem" height="1.4rem" viewBox="0 0 40 40" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" class="container__product-logo"><g fill-rule="nonzero" fill="none"><rect width="37.5" height="37.5" x="1.25" y="1.25" fill="#0F1E29" fill-opacity="0.5" stroke="#FFF" stroke-width="2.5" rx="18.75"></rect><path fill="#FFF" d="M15 27.29V12.71c0-1.145 1.188-1.843 2.104-1.236l11 7.29c.861.571.861 1.901 0 2.472l-11 7.29c-.917.607-2.104-.09-2.104-1.236z"></path></g></svg>
+          <div class="container__product-sponsor">
+            <span>Tài trợ</span>
+          </div>
+        </div>
+        <div class="container__product-intro">
+          <div class="container__product-intro-logo">
+            <img src="https://media3.scdn.vn/img4/2023/11_02/LTQdoOT4idtS0xtMVjSS.png" alt="sale-event" class="" style="display: block;">
+          </div>
+          <h3>
+            <img mr="1" src="https://media3.scdn.vn/img4/2020/07_30/h6fJaiL5WkEbDU2eQRZb.png" alt="shop-badge" class="">
+            BỊCH GIẤY RÚT LỤA HÀNG KHÔNG 300 TỜ / 3 LỚP. GIẤY MỊN, DAI
+          </h3>
+          <div class="container__product-intro-price">
+            <div class="container__product-intro-price-old">
+              <span>
+                22.000đ
+              </span>
+              <span>
+                -65%
+              </span>
+            </div>
+            <span>7.000đ</span>
+          </div>
+          <div class="container__product-intro-selective">
+            <div class="container__product-intro-select" style="background-color: rgb(242, 243, 244);">
+              <img width="10px" height="10px" conponent="[object Object]" src="https://media3.scdn.vn/img4/2023/04_17/uRpqpuUUe3NDEoErtrUo.png" alt="promotion-icon" class="">
+              <span>Trả góp Muadee</span>
+            </div>
+          </div>
+          <div class="container__product-intro-sold">
+            <span>Đã bán 4</span>
+          </div>
+          <div class="container__product-intro-evaluate" style="padding-bottom: 20px;">
+            <div class="container__product-intro-star">
+              <span>4.7/5</span>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <span>TP.HCM</span>
+          </div>
+        </div>
+      </div>
+      <div class="container__product">
+        <div class="container__product-image">
+          <img heigh="100%" data-src="https://media3.scdn.vn/img4/2023/07_20/OuEjfEK44rv1NC2DQM4d_simg_b5529c_250x250_maxb.jpg" src="https://media3.scdn.vn/img4/2023/07_20/OuEjfEK44rv1NC2DQM4d_simg_b5529c_250x250_maxb.jpg" alt="Khay Đá Silicon Có Nắp Đậy 14 Viên, Khay Đựng Đá Tủ Lạnh, Làm Đá Thạch Kem Bảo Quản Chống Mùi Tuyệt Đối - S124" class="container__product-img">
+          <svg xmlns="http://www.w3.org/2000/svg" width="1.4rem" height="1.4rem" viewBox="0 0 40 40" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" class="container__product-logo"><g fill-rule="nonzero" fill="none"><rect width="37.5" height="37.5" x="1.25" y="1.25" fill="#0F1E29" fill-opacity="0.5" stroke="#FFF" stroke-width="2.5" rx="18.75"></rect><path fill="#FFF" d="M15 27.29V12.71c0-1.145 1.188-1.843 2.104-1.236l11 7.29c.861.571.861 1.901 0 2.472l-11 7.29c-.917.607-2.104-.09-2.104-1.236z"></path></g></svg>
+          <div class="container__product-sponsor">
+            <span>Tài trợ</span>
+          </div>
+        </div>
+        <div class="container__product-intro">
+          <div class="container__product-intro-logo">
+            <img src="https://media3.scdn.vn/img4/2023/11_02/LTQdoOT4idtS0xtMVjSS.png" alt="sale-event" class="" style="display: block;">
+          </div>
+          <h3>
+            <img mr="1" src="https://media3.scdn.vn/img4/2020/07_30/h6fJaiL5WkEbDU2eQRZb.png" alt="shop-badge" class="">
+            BỊCH GIẤY RÚT LỤA HÀNG KHÔNG 300 TỜ / 3 LỚP. GIẤY MỊN, DAI
+          </h3>
+          <div class="container__product-intro-price">
+            <div class="container__product-intro-price-old">
+              <span>
+                22.000đ
+              </span>
+              <span>
+                -65%
+              </span>
+            </div>
+            <span>7.000đ</span>
+          </div>
+          <div class="container__product-intro-selective">
+            <div class="container__product-intro-select" style="background-color: rgb(242, 243, 244);">
+              <img width="10px" height="10px" conponent="[object Object]" src="https://media3.scdn.vn/img4/2023/04_17/uRpqpuUUe3NDEoErtrUo.png" alt="promotion-icon" class="">
+              <span>Trả góp Muadee</span>
+            </div>
+          </div>
+          <div class="container__product-intro-sold">
+            <span>Đã bán 4</span>
+          </div>
+          <div class="container__product-intro-evaluate" style="padding-bottom: 20px;">
+            <div class="container__product-intro-star">
+              <span>4.7/5</span>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <span>TP.HCM</span>
+          </div>
+        </div>
+      </div>
+      <div class="container__product">
+        <div class="container__product-image">
+          <img heigh="100%" data-src="https://media3.scdn.vn/img4/2023/07_20/OuEjfEK44rv1NC2DQM4d_simg_b5529c_250x250_maxb.jpg" src="https://media3.scdn.vn/img4/2023/07_20/OuEjfEK44rv1NC2DQM4d_simg_b5529c_250x250_maxb.jpg" alt="Khay Đá Silicon Có Nắp Đậy 14 Viên, Khay Đựng Đá Tủ Lạnh, Làm Đá Thạch Kem Bảo Quản Chống Mùi Tuyệt Đối - S124" class="container__product-img">
+          <svg xmlns="http://www.w3.org/2000/svg" width="1.4rem" height="1.4rem" viewBox="0 0 40 40" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" class="container__product-logo"><g fill-rule="nonzero" fill="none"><rect width="37.5" height="37.5" x="1.25" y="1.25" fill="#0F1E29" fill-opacity="0.5" stroke="#FFF" stroke-width="2.5" rx="18.75"></rect><path fill="#FFF" d="M15 27.29V12.71c0-1.145 1.188-1.843 2.104-1.236l11 7.29c.861.571.861 1.901 0 2.472l-11 7.29c-.917.607-2.104-.09-2.104-1.236z"></path></g></svg>
+          <div class="container__product-sponsor">
+            <span>Tài trợ</span>
+          </div>
+        </div>
+        <div class="container__product-intro">
+          <div class="container__product-intro-logo">
+            <img src="https://media3.scdn.vn/img4/2023/11_02/LTQdoOT4idtS0xtMVjSS.png" alt="sale-event" class="" style="display: block;">
+          </div>
+          <h3>
+            <img mr="1" src="https://media3.scdn.vn/img4/2020/07_30/h6fJaiL5WkEbDU2eQRZb.png" alt="shop-badge" class="">
+            BỊCH GIẤY RÚT LỤA HÀNG KHÔNG 300 TỜ / 3 LỚP. GIẤY MỊN, DAI
+          </h3>
+          <div class="container__product-intro-price">
+            <div class="container__product-intro-price-old">
+              <span>
+                22.000đ
+              </span>
+              <span>
+                -65%
+              </span>
+            </div>
+            <span>7.000đ</span>
+          </div>
+          <div class="container__product-intro-selective">
+            <div class="container__product-intro-select" style="background-color: rgb(242, 243, 244);">
+              <img width="10px" height="10px" conponent="[object Object]" src="https://media3.scdn.vn/img4/2023/04_17/uRpqpuUUe3NDEoErtrUo.png" alt="promotion-icon" class="">
+              <span>Trả góp Muadee</span>
+            </div>
+          </div>
+          <div class="container__product-intro-sold">
+            <span>Đã bán 4</span>
+          </div>
+          <div class="container__product-intro-evaluate" style="padding-bottom: 20px;">
+            <div class="container__product-intro-star">
+              <span>4.7/5</span>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <span>TP.HCM</span>
+          </div>
+        </div>
+      </div>
+      <div class="container__product">
+        <div class="container__product-image">
+          <img heigh="100%" data-src="https://media3.scdn.vn/img4/2023/07_20/OuEjfEK44rv1NC2DQM4d_simg_b5529c_250x250_maxb.jpg" src="https://media3.scdn.vn/img4/2023/07_20/OuEjfEK44rv1NC2DQM4d_simg_b5529c_250x250_maxb.jpg" alt="Khay Đá Silicon Có Nắp Đậy 14 Viên, Khay Đựng Đá Tủ Lạnh, Làm Đá Thạch Kem Bảo Quản Chống Mùi Tuyệt Đối - S124" class="container__product-img">
+          <svg xmlns="http://www.w3.org/2000/svg" width="1.4rem" height="1.4rem" viewBox="0 0 40 40" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" class="container__product-logo"><g fill-rule="nonzero" fill="none"><rect width="37.5" height="37.5" x="1.25" y="1.25" fill="#0F1E29" fill-opacity="0.5" stroke="#FFF" stroke-width="2.5" rx="18.75"></rect><path fill="#FFF" d="M15 27.29V12.71c0-1.145 1.188-1.843 2.104-1.236l11 7.29c.861.571.861 1.901 0 2.472l-11 7.29c-.917.607-2.104-.09-2.104-1.236z"></path></g></svg>
+          <div class="container__product-sponsor">
+            <span>Tài trợ</span>
+          </div>
+        </div>
+        <div class="container__product-intro">
+          <div class="container__product-intro-logo">
+            <img src="https://media3.scdn.vn/img4/2023/11_02/LTQdoOT4idtS0xtMVjSS.png" alt="sale-event" class="" style="display: block;">
+          </div>
+          <h3>
+            <img mr="1" src="https://media3.scdn.vn/img4/2020/07_30/h6fJaiL5WkEbDU2eQRZb.png" alt="shop-badge" class="">
+            BỊCH GIẤY RÚT LỤA HÀNG KHÔNG 300 TỜ / 3 LỚP. GIẤY MỊN, DAI
+          </h3>
+          <div class="container__product-intro-price">
+            <div class="container__product-intro-price-old">
+              <span>
+                22.000đ
+              </span>
+              <span>
+                -65%
+              </span>
+            </div>
+            <span>7.000đ</span>
+          </div>
+          <div class="container__product-intro-selective">
+            <div class="container__product-intro-select" style="background-color: rgb(242, 243, 244);">
+              <img width="10px" height="10px" conponent="[object Object]" src="https://media3.scdn.vn/img4/2023/04_17/uRpqpuUUe3NDEoErtrUo.png" alt="promotion-icon" class="">
+              <span>Trả góp Muadee</span>
+            </div>
+          </div>
+          <div class="container__product-intro-sold">
+            <span>Đã bán 4</span>
+          </div>
+          <div class="container__product-intro-evaluate" style="padding-bottom: 20px;">
+            <div class="container__product-intro-star">
+              <span>4.7/5</span>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <span>TP.HCM</span>
+          </div>
+        </div>
+      </div>
+      <div class="container__product">
+        <div class="container__product-image">
+          <img heigh="100%" data-src="https://media3.scdn.vn/img4/2023/07_20/OuEjfEK44rv1NC2DQM4d_simg_b5529c_250x250_maxb.jpg" src="https://media3.scdn.vn/img4/2023/07_20/OuEjfEK44rv1NC2DQM4d_simg_b5529c_250x250_maxb.jpg" alt="Khay Đá Silicon Có Nắp Đậy 14 Viên, Khay Đựng Đá Tủ Lạnh, Làm Đá Thạch Kem Bảo Quản Chống Mùi Tuyệt Đối - S124" class="container__product-img">
+          <svg xmlns="http://www.w3.org/2000/svg" width="1.4rem" height="1.4rem" viewBox="0 0 40 40" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" class="container__product-logo"><g fill-rule="nonzero" fill="none"><rect width="37.5" height="37.5" x="1.25" y="1.25" fill="#0F1E29" fill-opacity="0.5" stroke="#FFF" stroke-width="2.5" rx="18.75"></rect><path fill="#FFF" d="M15 27.29V12.71c0-1.145 1.188-1.843 2.104-1.236l11 7.29c.861.571.861 1.901 0 2.472l-11 7.29c-.917.607-2.104-.09-2.104-1.236z"></path></g></svg>
+          <div class="container__product-sponsor">
+            <span>Tài trợ</span>
+          </div>
+        </div>
+        <div class="container__product-intro">
+          <div class="container__product-intro-logo">
+            <img src="https://media3.scdn.vn/img4/2023/11_02/LTQdoOT4idtS0xtMVjSS.png" alt="sale-event" class="" style="display: block;">
+          </div>
+          <h3>
+            <img mr="1" src="https://media3.scdn.vn/img4/2020/07_30/h6fJaiL5WkEbDU2eQRZb.png" alt="shop-badge" class="">
+            BỊCH GIẤY RÚT LỤA HÀNG KHÔNG 300 TỜ / 3 LỚP. GIẤY MỊN, DAI
+          </h3>
+          <div class="container__product-intro-price">
+            <div class="container__product-intro-price-old">
+              <span>
+                22.000đ
+              </span>
+              <span>
+                -65%
+              </span>
+            </div>
+            <span>7.000đ</span>
+          </div>
+          <div class="container__product-intro-selective">
+            <div class="container__product-intro-select" style="background-color: rgb(242, 243, 244);">
+              <img width="10px" height="10px" conponent="[object Object]" src="https://media3.scdn.vn/img4/2023/04_17/uRpqpuUUe3NDEoErtrUo.png" alt="promotion-icon" class="">
+              <span>Trả góp Muadee</span>
+            </div>
+          </div>
+          <div class="container__product-intro-sold">
+            <span>Đã bán 4</span>
+          </div>
+          <div class="container__product-intro-evaluate" style="padding-bottom: 20px;">
+            <div class="container__product-intro-star">
+              <span>4.7/5</span>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <span>TP.HCM</span>
+          </div>
+        </div>
+      </div>
+      <div class="container__product">
+        <div class="container__product-image">
+          <img heigh="100%" data-src="https://media3.scdn.vn/img4/2023/07_20/OuEjfEK44rv1NC2DQM4d_simg_b5529c_250x250_maxb.jpg" src="https://media3.scdn.vn/img4/2023/07_20/OuEjfEK44rv1NC2DQM4d_simg_b5529c_250x250_maxb.jpg" alt="Khay Đá Silicon Có Nắp Đậy 14 Viên, Khay Đựng Đá Tủ Lạnh, Làm Đá Thạch Kem Bảo Quản Chống Mùi Tuyệt Đối - S124" class="container__product-img">
+          <svg xmlns="http://www.w3.org/2000/svg" width="1.4rem" height="1.4rem" viewBox="0 0 40 40" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" class="container__product-logo"><g fill-rule="nonzero" fill="none"><rect width="37.5" height="37.5" x="1.25" y="1.25" fill="#0F1E29" fill-opacity="0.5" stroke="#FFF" stroke-width="2.5" rx="18.75"></rect><path fill="#FFF" d="M15 27.29V12.71c0-1.145 1.188-1.843 2.104-1.236l11 7.29c.861.571.861 1.901 0 2.472l-11 7.29c-.917.607-2.104-.09-2.104-1.236z"></path></g></svg>
+          <div class="container__product-sponsor">
+            <span>Tài trợ</span>
+          </div>
+        </div>
+        <div class="container__product-intro">
+          <div class="container__product-intro-logo">
+            <img src="https://media3.scdn.vn/img4/2023/11_02/LTQdoOT4idtS0xtMVjSS.png" alt="sale-event" class="" style="display: block;">
+          </div>
+          <h3>
+            <img mr="1" src="https://media3.scdn.vn/img4/2020/07_30/h6fJaiL5WkEbDU2eQRZb.png" alt="shop-badge" class="">
+            BỊCH GIẤY RÚT LỤA HÀNG KHÔNG 300 TỜ / 3 LỚP. GIẤY MỊN, DAI
+          </h3>
+          <div class="container__product-intro-price">
+            <div class="container__product-intro-price-old">
+              <span>
+                22.000đ
+              </span>
+              <span>
+                -65%
+              </span>
+            </div>
+            <span>7.000đ</span>
+          </div>
+          <div class="container__product-intro-selective">
+            <div class="container__product-intro-select" style="background-color: rgb(242, 243, 244);">
+              <img width="10px" height="10px" conponent="[object Object]" src="https://media3.scdn.vn/img4/2023/04_17/uRpqpuUUe3NDEoErtrUo.png" alt="promotion-icon" class="">
+              <span>Trả góp Muadee</span>
+            </div>
+          </div>
+          <div class="container__product-intro-sold">
+            <span>Đã bán 4</span>
+          </div>
+          <div class="container__product-intro-evaluate" style="padding-bottom: 20px;">
+            <div class="container__product-intro-star">
+              <span>4.7/5</span>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <span>TP.HCM</span>
+          </div>
+        </div>
+      </div>
+      <div class="container__product">
+        <div class="container__product-image">
+          <img heigh="100%" data-src="https://media3.scdn.vn/img4/2023/07_20/OuEjfEK44rv1NC2DQM4d_simg_b5529c_250x250_maxb.jpg" src="https://media3.scdn.vn/img4/2023/07_20/OuEjfEK44rv1NC2DQM4d_simg_b5529c_250x250_maxb.jpg" alt="Khay Đá Silicon Có Nắp Đậy 14 Viên, Khay Đựng Đá Tủ Lạnh, Làm Đá Thạch Kem Bảo Quản Chống Mùi Tuyệt Đối - S124" class="container__product-img">
+          <svg xmlns="http://www.w3.org/2000/svg" width="1.4rem" height="1.4rem" viewBox="0 0 40 40" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" class="container__product-logo"><g fill-rule="nonzero" fill="none"><rect width="37.5" height="37.5" x="1.25" y="1.25" fill="#0F1E29" fill-opacity="0.5" stroke="#FFF" stroke-width="2.5" rx="18.75"></rect><path fill="#FFF" d="M15 27.29V12.71c0-1.145 1.188-1.843 2.104-1.236l11 7.29c.861.571.861 1.901 0 2.472l-11 7.29c-.917.607-2.104-.09-2.104-1.236z"></path></g></svg>
+          <div class="container__product-sponsor">
+            <span>Tài trợ</span>
+          </div>
+        </div>
+        <div class="container__product-intro">
+          <div class="container__product-intro-logo">
+            <img src="https://media3.scdn.vn/img4/2023/11_02/LTQdoOT4idtS0xtMVjSS.png" alt="sale-event" class="" style="display: block;">
+          </div>
+          <h3>
+            <img mr="1" src="https://media3.scdn.vn/img4/2020/07_30/h6fJaiL5WkEbDU2eQRZb.png" alt="shop-badge" class="">
+            BỊCH GIẤY RÚT LỤA HÀNG KHÔNG 300 TỜ / 3 LỚP. GIẤY MỊN, DAI
+          </h3>
+          <div class="container__product-intro-price">
+            <div class="container__product-intro-price-old">
+              <span>
+                22.000đ
+              </span>
+              <span>
+                -65%
+              </span>
+            </div>
+            <span>7.000đ</span>
+          </div>
+          <div class="container__product-intro-selective">
+            <div class="container__product-intro-select" style="background-color: rgb(242, 243, 244);">
+              <img width="10px" height="10px" conponent="[object Object]" src="https://media3.scdn.vn/img4/2023/04_17/uRpqpuUUe3NDEoErtrUo.png" alt="promotion-icon" class="">
+              <span>Trả góp Muadee</span>
+            </div>
+          </div>
+          <div class="container__product-intro-sold">
+            <span>Đã bán 4</span>
+          </div>
+          <div class="container__product-intro-evaluate" style="padding-bottom: 20px;">
+            <div class="container__product-intro-star">
+              <span>4.7/5</span>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <span>TP.HCM</span>
+          </div>
+        </div>
+      </div>
+      <div class="container__product">
+        <div class="container__product-image">
+          <img heigh="100%" data-src="https://media3.scdn.vn/img4/2023/07_20/OuEjfEK44rv1NC2DQM4d_simg_b5529c_250x250_maxb.jpg" src="https://media3.scdn.vn/img4/2023/07_20/OuEjfEK44rv1NC2DQM4d_simg_b5529c_250x250_maxb.jpg" alt="Khay Đá Silicon Có Nắp Đậy 14 Viên, Khay Đựng Đá Tủ Lạnh, Làm Đá Thạch Kem Bảo Quản Chống Mùi Tuyệt Đối - S124" class="container__product-img">
+          <svg xmlns="http://www.w3.org/2000/svg" width="1.4rem" height="1.4rem" viewBox="0 0 40 40" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" class="container__product-logo"><g fill-rule="nonzero" fill="none"><rect width="37.5" height="37.5" x="1.25" y="1.25" fill="#0F1E29" fill-opacity="0.5" stroke="#FFF" stroke-width="2.5" rx="18.75"></rect><path fill="#FFF" d="M15 27.29V12.71c0-1.145 1.188-1.843 2.104-1.236l11 7.29c.861.571.861 1.901 0 2.472l-11 7.29c-.917.607-2.104-.09-2.104-1.236z"></path></g></svg>
+          <div class="container__product-sponsor">
+            <span>Tài trợ</span>
+          </div>
+        </div>
+        <div class="container__product-intro">
+          <div class="container__product-intro-logo">
+            <img src="https://media3.scdn.vn/img4/2023/11_02/LTQdoOT4idtS0xtMVjSS.png" alt="sale-event" class="" style="display: block;">
+          </div>
+          <h3>
+            <img mr="1" src="https://media3.scdn.vn/img4/2020/07_30/h6fJaiL5WkEbDU2eQRZb.png" alt="shop-badge" class="">
+            BỊCH GIẤY RÚT LỤA HÀNG KHÔNG 300 TỜ / 3 LỚP. GIẤY MỊN, DAI
+          </h3>
+          <div class="container__product-intro-price">
+            <div class="container__product-intro-price-old">
+              <span>
+                22.000đ
+              </span>
+              <span>
+                -65%
+              </span>
+            </div>
+            <span>7.000đ</span>
+          </div>
+          <div class="container__product-intro-selective">
+            <div class="container__product-intro-select" style="background-color: rgb(242, 243, 244);">
+              <img width="10px" height="10px" conponent="[object Object]" src="https://media3.scdn.vn/img4/2023/04_17/uRpqpuUUe3NDEoErtrUo.png" alt="promotion-icon" class="">
+              <span>Trả góp Muadee</span>
+            </div>
+          </div>
+          <div class="container__product-intro-sold">
+            <span>Đã bán 4</span>
+          </div>
+          <div class="container__product-intro-evaluate" style="padding-bottom: 20px;">
+            <div class="container__product-intro-star">
+              <span>4.7/5</span>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <span>TP.HCM</span>
+          </div>
+        </div>
+      </div>
+      <div class="container__product">
+        <div class="container__product-image">
+          <img heigh="100%" data-src="https://media3.scdn.vn/img4/2023/07_20/OuEjfEK44rv1NC2DQM4d_simg_b5529c_250x250_maxb.jpg" src="https://media3.scdn.vn/img4/2023/07_20/OuEjfEK44rv1NC2DQM4d_simg_b5529c_250x250_maxb.jpg" alt="Khay Đá Silicon Có Nắp Đậy 14 Viên, Khay Đựng Đá Tủ Lạnh, Làm Đá Thạch Kem Bảo Quản Chống Mùi Tuyệt Đối - S124" class="container__product-img">
+          <svg xmlns="http://www.w3.org/2000/svg" width="1.4rem" height="1.4rem" viewBox="0 0 40 40" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" class="container__product-logo"><g fill-rule="nonzero" fill="none"><rect width="37.5" height="37.5" x="1.25" y="1.25" fill="#0F1E29" fill-opacity="0.5" stroke="#FFF" stroke-width="2.5" rx="18.75"></rect><path fill="#FFF" d="M15 27.29V12.71c0-1.145 1.188-1.843 2.104-1.236l11 7.29c.861.571.861 1.901 0 2.472l-11 7.29c-.917.607-2.104-.09-2.104-1.236z"></path></g></svg>
+          <div class="container__product-sponsor">
+            <span>Tài trợ</span>
+          </div>
+        </div>
+        <div class="container__product-intro">
+          <div class="container__product-intro-logo">
+            <img src="https://media3.scdn.vn/img4/2023/11_02/LTQdoOT4idtS0xtMVjSS.png" alt="sale-event" class="" style="display: block;">
+          </div>
+          <h3>
+            <img mr="1" src="https://media3.scdn.vn/img4/2020/07_30/h6fJaiL5WkEbDU2eQRZb.png" alt="shop-badge" class="">
+            BỊCH GIẤY RÚT LỤA HÀNG KHÔNG 300 TỜ / 3 LỚP. GIẤY MỊN, DAI
+          </h3>
+          <div class="container__product-intro-price">
+            <div class="container__product-intro-price-old">
+              <span>
+                22.000đ
+              </span>
+              <span>
+                -65%
+              </span>
+            </div>
+            <span>7.000đ</span>
+          </div>
+          <div class="container__product-intro-selective">
+            <div class="container__product-intro-select" style="background-color: rgb(242, 243, 244);">
+              <img width="10px" height="10px" conponent="[object Object]" src="https://media3.scdn.vn/img4/2023/04_17/uRpqpuUUe3NDEoErtrUo.png" alt="promotion-icon" class="">
+              <span>Trả góp Muadee</span>
+            </div>
+          </div>
+          <div class="container__product-intro-sold">
+            <span>Đã bán 4</span>
+          </div>
+          <div class="container__product-intro-evaluate" style="padding-bottom: 20px;">
+            <div class="container__product-intro-star">
+              <span>4.7/5</span>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <span>TP.HCM</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container__footer">
+      <button class="container__footer-seemore">
+        <span>Xem thêm</span>
+      </button>
+    </div>
+  </div>
+  <footer class="footer">
+    <div class="footer__heading">
+      <div class="footer__convenient">
+        <a class="item" href="">
+          <img data-src="https://media3.scdn.vn/img4/2020/12_16/gJwXr6FFZKZCGKWaz4RB.png" src="https://media3.scdn.vn/img4/2020/12_16/gJwXr6FFZKZCGKWaz4RB.png" alt="Siêu nhiều hàng tốt" class="img">
+          <div class="intro">
+            <h3>Siêu nhiều hàng tốt</h3>
+            <span>Cần gì cũng có 26 ngành hàng & 10 triệu sản phẩm</span>
+          </div>
+        </a>
+        <a class="item" href="">
+          <img data-src="https://media3.scdn.vn/img4/2020/12_16/EfZWQVfV6nQzu2vMmnwC.png" src="https://media3.scdn.vn/img4/2020/12_16/EfZWQVfV6nQzu2vMmnwC.png" alt="Siêu yên tâm" class="img">
+          <div class="intro">
+            <h3>Siêu yên tâm</h3>
+            <span>Miễn phí đổi trả 48h</span>
+          </div>
+        </a>
+        <a class="item" href="">
+          <img data-src="https://media3.scdn.vn/img4/2020/12_16/j5C6IQz7gIXPgjFJxmRz.png" src="https://media3.scdn.vn/img4/2020/12_16/j5C6IQz7gIXPgjFJxmRz.png" alt="Siêu tiện lợi" class="img">
+          <div class="intro">
+            <h3>Siêu tiện lợi</h3>
+            <span>Mang thế giới mua sắm của Sendo trong tầm tay bạn</span>
+          </div>
+        </a>
+        <a class="item" href="">
+          <img data-src="https://media3.scdn.vn/img4/2020/12_16/7AJFQGQ5qvS7gGOz8P7a.png" src="https://media3.scdn.vn/img4/2020/12_16/7AJFQGQ5qvS7gGOz8P7a.png" alt="Siêu tiết kiệm" class="img">
+          <div class="intro">
+            <h3>Siêu tiết kiệm</h3>
+            <span>Giá hợp lý, vừa túi tiền. Luôn có nhiều chương trình khuyến mãi</span>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="footer__list">
+      <div class="footer__list-item">
+        <h3>VỀ CHÚNG TÔI</h3>
+        <ul>
+          <li>Giới thiệu Sendo.vn</li>
+          <li>Giới thiệu SenMall</li>
+          <li>Quy chế hoạt động</li>
+          <li>Chính sách bảo mật</li>
+          <li>Giao hàng và Nhận hàng</li>
+        </ul>
+      </div>
+      <div class="footer__list-item">
+        <h3>DÀNH CHO NGƯỜI MUA</h3>
+        <ul>
+          <li>Giải quyết khiếu nại</li>
+          <li>Hướng dẫn mua hàng</li>
+          <li>Chính sách đổi trả</li>
+          <li>Chăm sóc khách hàng</li>
+          <li>Nạp tiền điện thoại</li>
+        </ul>
+      </div>
+      <div class="footer__list-item">
+        <h3>DÀNH CHO NGƯỜI BÁN</h3>
+        <ul>
+          <li>Quy định đối với người bán</li>
+          <li>Chính sách bán hàng</li>
+          <li>Hệ thống tiêu chí kiểm duyệt</li>
+          <li>Mở shop trên Sendo</li>
+        </ul>
+      </div>
+      <div class="footer__list-item">
+        <h3>TẢI ỨNG DỤNG SENDO</h3>
+        <ul style="max-width: 200px;">
+          <li>Mang thế giới mua sắm của Sendo trong tầm tay bạn</li>
+        </ul>
+        <div class="footer__list-download">
+          <img data-src="https://media3.scdn.vn/img4/2020/12_16/5lUTWdk3DXr8nlC9MDII.png" src="https://media3.scdn.vn/img4/2020/12_16/5lUTWdk3DXr8nlC9MDII.png" alt="app-store" class="footer__list-download-icon">
+          <img data-src="https://media3.scdn.vn/img4/2021/10_26/0ZARLASzVrfL92924rzW.png" src="https://media3.scdn.vn/img4/2021/10_26/0ZARLASzVrfL92924rzW.png" alt="google-play" class="footer__list-download-icon">
+          <img data-src="https://media3.scdn.vn/img4/2021/03_19/AMV086JNpEbm4OGAvVng.png" src="https://media3.scdn.vn/img4/2021/03_19/AMV086JNpEbm4OGAvVng.png" alt="app-gallery" class="footer__list-download-icon">
+        </div>
+      </div>
+    </div>
+    <div class="footer__container">
+      <div class="company">
+        <h3>Công ty Cổ phần Công nghệ Sen Đỏ, thành viên tập đoàn FPT</h3>
+        <ul>
+          <li>Số ĐKKD: 0312776486 - Ngày cấp: 13/05/2014, được sửa đổi lần thứ 20, ngày 26/04/2022.</li>
+          <li>Cơ quan cấp: Sở Kế hoạch và Đầu tư TPHCM.</li>
+          <li>Địa chỉ: Tầng 5, Tòa nhà A, Vườn Ươm Doanh Nghiệp, Lô D.01, Đường Tân Thuận, Khu chế xuất Tân Thuận, Phường Tân Thuận Đông, Quận 7, Thành phố Hồ Chí Minh, Việt Nam.</li>
+          <li>Email: lienhe@sendo.vn</li>
+        </ul>
+        <div class="company-logo">
+          <img data-src="https://media3.scdn.vn/img4/2020/12_16/XhpGDnvWqrlKeHLst3aS.png" src="https://media3.scdn.vn/img4/2020/12_16/XhpGDnvWqrlKeHLst3aS.png" alt="Bộ Công Thương" class="company-img">
+          <img data-src="https://media3.scdn.vn/img4/2020/12_16/h6lEMGIAt4Uapd0Mls34.png" src="https://media3.scdn.vn/img4/2020/12_16/h6lEMGIAt4Uapd0Mls34.png" alt="Bộ Công Thương - Nói không với hàng giả" class="company-img">
+        </div>
+      </div>
+      <div class="login">
+        <h3>Đăng ký nhận bản tin ưu đãi khủng từ Sendo</h3>
+        <div class="withlogin">
+          <input type="text" class="input" placeholder="Email của bạn là"></input> 
+          <button class="login-btn">
+            <h3>Đăng ký</h3>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="footer__end">
+      <div class="footer__end-topsearch">
+        <p>TOP TÌM KIẾM</p>
+          <i class="footer__end-topsearch-icon fa-solid fa-chevron-down"></i>
+      </div> 
+      <ul>
+        <li>Đồng Hồ</li>
+        <li>SHOPPING Mall</li>
+        <li>THế Giới Di Động</li>
+        <li>Bánh TRung Thu Kinh Đô</li>
+        <li>Black Friday</li>
+        <li>Tivi</li>
+        <li>Mỹ phẩm hàn quốc</li>
+        <li>Kem chống nắng</li>
+        <li>Chợ Tốt</li>
+        <li>Shopee</li>
+        <li>Corona Virus</li>
+        <li>Đồ chơi nấu ăn</li>
+        <li>Laptop</li>
+        <li>iPhone 6</li>
+        <li>Bàn phím cơ</li>
+        <li>Quạt</li>
+      </ul>
+    </div>
+    </footer>
+    <button class="blockchat-btn">
+      <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" color="#fff" class="blockchat-btn-img"><path d="M20 2a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2h-7.913L6 21.804V18H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h16Zm0 2H4v12h4v2.196L11.513 16H20V4Zm-6 7v2H7v-2h7Zm2-4v2H7V7h9Z" fill="#fff" fill-rule="nonzero"></path></svg>
+      <span>Chat</span>
+    </button>
+</body>
+</html>
